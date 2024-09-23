@@ -21,16 +21,19 @@ h1 {
 h2 {
     font-size: var(--font-size-h2);
     font-family: var(--font-secondary);
+    font-weight: bold;
 }
 
 h3 {
     font-size: var(--font-size-h3);
     font-family: var(--font-secondary);
+    font-weight: bold;
 }
 
 h4 {
     font-size: var(--font-size-h4);
     font-family: var(--font-secondary);
+    font-weight: 400;
 }
 
 p {
