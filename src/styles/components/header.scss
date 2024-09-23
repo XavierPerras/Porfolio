@@ -3,22 +3,18 @@
    ========================================================================== */
 
 .header {
-    --header-height: 100px;
-    --logo-width: 200px;
     background-color: var(--color-bg-secondary);
-    align-items: center;
-    display: flex;
+    // align-items: center;
+    // display: flex;
     justify-content: space-between;
-    padding: 0 2rem;
-    height: var(--header-height);
-    width: 100%;
+
     z-index: 10;
+    //stick
     position: sticky;
     top: 0;
     left: 0;
     transition: all 0.4s $ease-out-expo;
     &::before {
-        background-color: var(--color-bg-secondary);
         content: '';
         position: absolute;
         top: 0;
@@ -38,9 +34,7 @@
 }
 
 .header__brand {
-    width: 200px;
     position: relative;
-    z-index: 10;
 
     @media screen and (min-width: $breakpoint-md) {
         position: absolute;
@@ -48,17 +42,10 @@
     }
 }
 .nav-primary {
-    background-color: var(--color-bg-secondary);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1000px;
-    height: 100vh;
     padding-top: var(--header-height);
 
     display: flex;
-    overflow-y: auto;
-    z-index: 1;
+
     transition: all 0.4s $ease-out-expo;
     transform: scale(0); //state before
 
@@ -79,7 +66,7 @@
         display: flex;
         text-align: center;
         flex-direction: column;
-        justify-content: space-between;
+
         list-style-type: none;
         padding: 0;
 
@@ -107,11 +94,9 @@
 }
 
 .nav-primary__item {
-    font-size: var(--font-size-h1);
-    color: var(--color-white);
     text-transform: uppercase;
     padding: 0 20px;
-    position: relative;
+    //  position: relative;
 
     &::before {
         display: block;
@@ -159,6 +144,7 @@
         }
     }
 }
+//mobile
 .header__toggle {
     --bar-height: 8px;
     --bar-width: 50px;
