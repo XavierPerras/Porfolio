@@ -3,11 +3,14 @@
    ========================================================================== */
 
 .header {
+    .head {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
     background-color: var(--color-bg-secondary);
-    // align-items: center;
-    // display: flex;
-    justify-content: space-between;
 
+    padding: 0;
     z-index: 10;
     //stick
     position: sticky;
@@ -25,7 +28,7 @@
     }
 
     @media screen and (min-width: $breakpoint-md) {
-        padding: calc(var(--spacing-md) / 2) var(--spacing-md);
+        //  padding: calc(var(--spacing-md) / 2) var(--spacing-md);
         justify-content: center;
     }
     .header-is-hidden.is-scrolling-down & {
@@ -37,8 +40,6 @@
     position: relative;
 
     @media screen and (min-width: $breakpoint-md) {
-        position: absolute;
-        margin: auto;
     }
 }
 .nav-primary {
