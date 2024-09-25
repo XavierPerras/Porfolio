@@ -3,11 +3,6 @@
    ========================================================================== */
 
 .header {
-    .head {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-    }
     background-color: var(--color-bg-secondary);
 
     padding: 0;
@@ -92,6 +87,11 @@
             margin-left: calc(var(--logo-width) + 40px);
         }
     }
+}
+.head {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-primary__item {

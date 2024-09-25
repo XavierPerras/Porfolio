@@ -30,12 +30,15 @@
 @import '../../node_modules/swiper/modules/pagination/pagination';
 @import '../../node_modules/swiper/modules/navigation/navigation';
 @import '../../node_modules/swiper/modules/autoplay/autoplay';
-
+//js
 @import 'components/icons';
 @import 'components/header';
 @import 'components/footer.scss';
 @import 'components/scrolly.scss';
 @import 'components/carousel';
+//content
+@import 'components/hero.scss';
+@import 'components/projets.scss';
 
 // UTILITIES
 // Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page

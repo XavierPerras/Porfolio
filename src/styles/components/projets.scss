@@ -1,0 +1,24 @@
+.projets {
+    .projetsContent {
+        display: flex;
+
+        align-items: center;
+        margin: 50px 0;
+    }
+    .projetTxt {
+        margin: 0 20px;
+    }
+    a {
+        text-align: end;
+        margin-left: auto;
+    }
+    img {
+        width: auto;
+    }
+    h3 {
+        border-bottom: 10px solid #eaeaea;
+
+        /* shadow */
+        text-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+}
