@@ -1,0 +1,23 @@
+.jaime {
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card {
+        position: relative;
+        img {
+            :hover {
+            }
+        }
+        .txt {
+            margin: 0 auto;
+            position: absolute;
+            bottom: 40px;
+            z-index: 2;
+
+            :hover {
+            }
+        }
+    }
+}

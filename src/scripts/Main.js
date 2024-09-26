@@ -1,4 +1,4 @@
-// import Icons from './utils/Icons';
+import Icons from './utils/Icons';
 import ComponentFactory from './ComponentsFactory';
 
 class Main {
@@ -8,7 +8,7 @@ class Main {
 
   init() {
     document.documentElement.classList.add('has-js');
-    // Icons.load(); Aucune icône dans ce projet
+    Icons.load(); //Aucune icône dans ce projet
 
     new ComponentFactory();
   }
