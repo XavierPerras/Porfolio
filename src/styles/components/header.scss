@@ -35,6 +35,10 @@
     position: relative;
 
     @media screen and (min-width: $breakpoint-md) {
+        h1:hover {
+            color: var(--color-btn-actif);
+            text-decoration: double;
+        }
     }
 }
 .nav-primary {

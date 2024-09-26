@@ -3,21 +3,30 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        :hover {
+            img {
+                -webkit-filter: brightness(20%);
+            }
+            .txt {
+                display: block;
+            }
+            transition: all 0.2s ease;
+        }
     }
     .card {
         position: relative;
         img {
-            :hover {
-            }
         }
         .txt {
             margin: 0 auto;
             position: absolute;
+            left: 0;
+            right: 0;
+            margin-inline: auto;
+            width: fit-content;
             bottom: 40px;
             z-index: 2;
-
-            :hover {
-            }
+            display: none;
         }
     }
 }

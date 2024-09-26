@@ -1,17 +1,24 @@
 .projets {
     .projetsContent {
         display: flex;
-
-        align-items: center;
+        justify-content: center;
         margin: 50px 0;
     }
     .projetTxt {
         margin: 0 20px;
     }
     a {
-        text-align: end;
-        margin-left: auto;
+        text-align: right;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: auto;
     }
+    h1 {
+        text-align: center;
+    }
+
     img {
         width: auto;
     }
