@@ -5,7 +5,6 @@
 .header {
     background-color: var(--color-bg-secondary);
 
-    padding: 0;
     z-index: 10;
     //stick
     position: sticky;
@@ -13,7 +12,7 @@
     left: 0;
     transition: all 0.4s $ease-out-expo;
     &::before {
-        content: '';
+        //  content: '';
         position: absolute;
         top: 0;
         left: 0;
@@ -32,7 +31,7 @@
 }
 
 .header__brand {
-    position: relative;
+    // position: relative;
 
     @media screen and (min-width: $breakpoint-md) {
         h1:hover {

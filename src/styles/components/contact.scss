@@ -1,0 +1,15 @@
+.contact {
+    h1 {
+        font-size: var(--font-size-hName);
+    }
+    a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
