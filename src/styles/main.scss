@@ -31,11 +31,10 @@
 @import '../../node_modules/swiper/modules/navigation/navigation';
 @import '../../node_modules/swiper/modules/autoplay/autoplay';
 //js
-@import 'components/icons';
-@import 'components/header';
-@import 'components/footer.scss';
-@import 'components/scrolly.scss';
-@import 'components/carousel';
+@import 'components/js/icons';
+@import 'components/js/header';
+@import 'components/js/scrolly.scss';
+@import 'components/js/carousel';
 //content
 @import 'components/hero.scss';
 @import 'components/projets.scss';
@@ -43,7 +42,8 @@
 @import 'components/jaime.scss';
 @import 'components/contact.scss';
 @import 'components/media.scss';
-
+@import 'components/footer.scss';
+@import 'components/projet.scss';
 // UTILITIES
 // Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page
 @import 'utilities/accessibility';

@@ -1,0 +1,38 @@
+.projet {
+    .projetHero {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 0;
+    }
+    .projetsHerotxt {
+        margin: 0 20px;
+        width: fill;
+    }
+    .heroHead {
+        border-bottom: 5px solid #eaeaea;
+    }
+    .herotxt {
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        p {
+            margin: 0;
+        }
+    }
+    a {
+        padding: 10px;
+    }
+
+    img {
+    }
+
+    h1 {
+        border-bottom: 10px solid #eaeaea;
+        margin: 10px 0;
+        /* shadow */
+        text-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.45);
+    }
+    h2 {
+        margin: 10px 0;
+    }
+}
