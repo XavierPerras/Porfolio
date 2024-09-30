@@ -1,11 +1,13 @@
 .contact {
+    //after form to delete
+    margin-bottom: 10%;
     h1 {
         font-size: var(--font-size-hName);
     }
     a {
         display: flex;
         align-items: center;
-        gap: 10px;
+        margin: 10px 10px;
         text-decoration: none;
     }
     .wrapper {
