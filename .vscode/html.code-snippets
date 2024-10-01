@@ -7,5 +7,10 @@
       "</svg>"
     ],
     "description": "Ajouter une icône à partir du sprite svg"
+  },
+  "Scrolly": {
+    "prefix": "scrolly",
+    "body": "data-scrolly='${1|fromTop,fromBottom,fromLeft,fromRight,fromLittle,fromReverse,flipFromBottom|}'",
+    "description": "cree une balise scrolly"
   }
 }
