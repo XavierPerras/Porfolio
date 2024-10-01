@@ -1,8 +1,8 @@
 {% include '_partials/_header.html' %}
 <section class="hero">
     <div class="wrapper">
-        <img src="assets/images/photoPro.png" alt="photo profesionnel de moi" />
-        <div class="heroTxt">
+        <img data-scrolly='fromLeft' src="assets/images/photoPro.png" alt="photo profesionnel de moi" />
+        <div data-scrolly='fromRight' class="heroTxt">
             <h1>Xavier Perras</h1>
             <h2>
                 Créateur 3D/
@@ -15,10 +15,11 @@
             </p>
         </div>
     </div>
-</section><section class="CLQ">
+</section>
+<section class="CLQ">
     <div class="wrapper">
-        <div class="competence">
-            <h2>Mes Compétences</h2>
+        <div data-scrolly='fromLeft' class="competence">
+            <h3>Mes Compétences</h3>
             <div class="item">
                 <svg class="icon icon--lg">
                     <use xlink:href="#icon-integration"></use>
@@ -50,8 +51,8 @@
                 <h4>Modélisation 3D,</h4>
             </div>
         </div>
-        <div class="logiciel">
-            <h2>Logiciels que j’utilise!</h2>
+        <div data-scrolly='fromLittle' class="logiciel">
+            <h3 >Logiciels que j’utilise!</h3>
             <div class="item">
                 <svg class="icon icon--lg">
                     <use xlink:href="#icon-blender"></use>
@@ -84,8 +85,8 @@
             </div>
         </div>
         
-        <div class="qualite">
-            <h2>Mes Qualitées</h2>
+        <div data-scrolly='fromRight' class="qualite">
+            <h3>Mes Qualitées</h3>
             <div class="item">
                 <svg class="icon icon--lg">
                     <use xlink:href="#icon-methodique"></use>
@@ -118,7 +119,7 @@
 </section>
 <section class="jaime">
     <div class="wrapper">
-        <h2>Mes loisirs</h2></div>
+        <h2 data-scrolly='fromLeft'>Mes loisirs</h2></div>
     <div class="cards">
         <div class="card">
             <img src="assets/images/nfl.jpg" alt="">

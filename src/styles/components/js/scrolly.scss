@@ -25,7 +25,7 @@
     [data-scrolly='fromLeft'] {
         opacity: 0;
         transition: all 0.6s ease-out;
-        transform: translateX(-80px);
+        transform: translateX(-50px);
 
         &.is-active {
             opacity: 1;
@@ -36,6 +36,7 @@
         opacity: 0;
         transform: rotateZ(-180deg);
         transition: all s ease-out;
+
         &.is-active {
             opacity: 1;
             transform: rotateX(0);
@@ -53,7 +54,7 @@
     [data-scrolly='fromRight'] {
         opacity: 0;
         transition: all 0.6s ease-out;
-        transform: translateX(80px);
+        transform: translateX(50px);
 
         &.is-active {
             opacity: 1;
