@@ -6,6 +6,8 @@
     max-width: $breakpoint-xl;
     margin-inline: auto;
     padding: 0 var(--spacing-md);
+    @media screen and (min-width: $breakpoint-md) {
+    }
 }
 
 section + section {

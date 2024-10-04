@@ -6,13 +6,14 @@
     background-color: var(--color-bg-secondary);
 
     z-index: 10;
-    //stick
+
     position: sticky;
     top: 0;
     left: 0;
     transition: all 0.4s $ease-out-expo;
+
     &::before {
-        //  content: '';
+        //content: '';
         position: absolute;
         top: 0;
         left: 0;
@@ -22,7 +23,9 @@
     }
 
     @media screen and (min-width: $breakpoint-md) {
-        //  padding: calc(var(--spacing-md) / 2) var(--spacing-md);
+        justify-content: center;
+    }
+    @media screen and (min-width: $breakpoint-xs) {
         justify-content: center;
     }
     .header-is-hidden.is-scrolling-down & {
@@ -31,19 +34,20 @@
 }
 
 .header__brand {
-    // position: relative;
+    position: relative;
 
     @media screen and (min-width: $breakpoint-md) {
         h1:hover {
             color: var(--color-btn-actif);
-            text-decoration: double;
+            text-decoration: none;
         }
     }
 }
+
 .nav-primary {
     padding-top: var(--header-height);
 
-    display: flex;
+    display: none;
 
     transition: all 0.4s $ease-out-expo;
     transform: scale(0); //state before
@@ -54,12 +58,13 @@
         height: auto;
         width: auto;
         padding: 0;
-        display: block;
+        display: flex;
         z-index: 2;
     }
 
     .nav-is-active & {
         transform: scale(100%); //stae acive
+        display: block;
     }
     ul {
         display: flex;
@@ -91,16 +96,11 @@
         }
     }
 }
-.head {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
 
 .nav-primary__item {
     text-transform: uppercase;
     padding: 0 20px;
-    //  position: relative;
+    position: relative;
 
     &::before {
         display: block;
@@ -147,6 +147,12 @@
             }
         }
     }
+}
+.head {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 //mobile
 .header__toggle {
@@ -206,5 +212,12 @@
 .nav-is-active {
     body {
         overflow: hidden;
+    }
+    .head {
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        display: block;
+        justify-content: space-between;
     }
 }
