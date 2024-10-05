@@ -4,7 +4,7 @@
 
 .header {
     background-color: var(--color-bg-secondary);
-
+    height: 100%;
     z-index: 10;
 
     position: sticky;
@@ -81,7 +81,7 @@
         .nav-is-active {
             transform: translateY(0);
             opacity: 1;
-            font-size: xx-large;
+            font-size: x-large;
         }
         @media screen and (min-width: $breakpoint-md) {
             flex-direction: row;
@@ -213,11 +213,17 @@
     body {
         overflow: hidden;
     }
-    .head {
-        height: 100%;
-        align-items: center;
-        text-align: center;
-        display: block;
-        justify-content: space-between;
+
+    @media screen and (max-width: $breakpoint-md) {
+        .header {
+            padding: 20% 0;
+        }
+        .head {
+            height: 100%;
+            align-items: center;
+            text-align: center;
+            display: block;
+            justify-content: space-between;
+        }
     }
 }
