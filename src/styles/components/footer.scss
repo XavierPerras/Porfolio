@@ -17,6 +17,9 @@
         padding: 0;
         display: flex;
         z-index: 2;
+        @media screen and (max-width: $breakpoint-md) {
+            margin: 60px 0;
+        }
     }
     ul {
         text-align: center;
@@ -26,10 +29,15 @@
         justify-content: space-between;
         list-style-type: none;
         padding: 0;
-        gap: 85px;
-        @media screen and (min-width: $breakpoint-md) {
+        gap: 80px;
+
+        @media screen and (max-width: $breakpoint-md) {
+            flex-direction: column;
+            gap: 30px;
+            margin: 0 auto;
         }
     }
+
     .head-footer {
         @media screen and (min-width: $breakpoint-md) {
             display: flex;

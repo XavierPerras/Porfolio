@@ -63,7 +63,7 @@
     }
     [data-scrolly='flipFromBottom'] {
         opacity: 0; // si JS est desactiver l'opsacité reste a zero!!
-        transition: all 1s ease-out;
+        transition: all 0.6s ease-out;
         transform: rotateX(120deg);
 
         &.is-active {

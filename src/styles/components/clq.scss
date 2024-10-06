@@ -4,8 +4,14 @@
         justify-content: space-between;
     }
 }
+h3,
+h4 {
+    text-shadow: var(--shadow);
+}
+
 .item {
     display: flex;
     align-items: center;
+
     gap: 20px;
 }

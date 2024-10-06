@@ -1,8 +1,11 @@
 .jaime {
+    h2 {
+        text-shadow: var(--shadow);
+    }
     .cards {
         display: flex;
         align-items: center;
-        justify-content: center;
+
         :hover {
             img {
                 -webkit-filter: brightness(20%);
@@ -12,10 +15,18 @@
             }
             transition: all 0.2s ease;
         }
+        @media screen and (max-width: $breakpoint-md) {
+            flex-direction: column;
+            justify-content: center;
+        }
     }
     .card {
         position: relative;
         img {
+            width: 900px;
+            @media screen and (max-width: $breakpoint-md) {
+                width: 350px;
+            }
         }
         .txt {
             margin: 10px 10px;
@@ -25,9 +36,23 @@
             padding: 20px;
             margin-inline: auto;
             width: fit-content;
-            bottom: 40px;
+            bottom: 5px;
             z-index: 2;
             display: none;
+            @media screen and (max-width: $breakpoint-md) {
+                position: static;
+                display: block;
+            }
+        }
+        @media screen and (max-width: $breakpoint-md) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            max-width: $breakpoint-xl;
+            margin-inline: auto;
+            padding: 0 var(--spacing-md);
         }
     }
 }
