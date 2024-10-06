@@ -2,6 +2,23 @@
     .wrapper {
         display: flex;
         justify-content: space-between;
+        @media screen and (max-width: $breakpoint-md) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    @media screen and (max-width: $breakpoint-md) {
+        justify-content: center;
+
+        .qualite {
+            text-align: center;
+        }
+        .logiciel {
+            text-align: center;
+        }
+        .competence {
+            text-align: center;
+        }
     }
 }
 h3,
@@ -14,4 +31,7 @@ h4 {
     align-items: center;
 
     gap: 20px;
+    @media screen and (max-width: $breakpoint-md) {
+        justify-content: center;
+    }
 }
