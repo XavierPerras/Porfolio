@@ -5,6 +5,9 @@
         gap: -18px;
         justify-content: center;
         align-items: center;
+        @media screen and (max-width: $breakpoint-md) {
+            flex-direction: column-reverse;
+        }
     }
 
     .heroTxt {
@@ -18,9 +21,13 @@
             font-size: var(--font-size-hName);
 
             margin: 10px 0;
+            @media screen and (max-width: $breakpoint-md) {
+                transform: translateX(0);
+            }
         }
         h2 {
             margin: 10px 0;
+            text-shadow: var(--shadow);
         }
 
         p {
