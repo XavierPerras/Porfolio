@@ -8,6 +8,12 @@
             width: 720px;
             height: 450px;
         }
+
+        @media screen and (max-width: $breakpoint-md) {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 80px;
+        }
     }
     .projetsTxt {
         margin: 0 20px;
