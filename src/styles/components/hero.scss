@@ -1,5 +1,6 @@
 .hero {
     margin: 40px 0;
+
     .wrapper {
         display: flex;
         gap: -18px;
@@ -8,6 +9,12 @@
         @media screen and (max-width: $breakpoint-md) {
             flex-direction: column-reverse;
         }
+    }
+    @media screen and (max-width: $breakpoint-md) {
+        width: 800px;
+    }
+    @media screen and (max-width: $breakpoint-xs) {
+        width: 220px;
     }
 
     .heroTxt {

@@ -22,12 +22,16 @@
         z-index: 2;
     }
 
-    @media screen and (min-width: $breakpoint-md) {
-        justify-content: center;
-    }
     @media screen and (min-width: $breakpoint-xs) {
         justify-content: center;
     }
+    @media screen and (max-width: $breakpoint-md) {
+        width: 800px;
+    }
+    @media screen and (max-width: $breakpoint-xs) {
+        width: 220px;
+    }
+
     .header-is-hidden.is-scrolling-down & {
         transform: translateY(-100%) translateY(4px);
     }
@@ -74,7 +78,6 @@
         list-style-type: none;
         padding: 0;
 
-        width: 100%;
         margin: auto;
         //transform: translateY(-70%);
         //opacity: 0;

@@ -5,9 +5,16 @@
 .wrapper {
     max-width: $breakpoint-xl;
     margin-inline: auto;
+    margin: 0 auto;
     padding: 0 var(--spacing-md);
-    @media screen and (min-width: $breakpoint-md) {
-    }
+    //  @media screen and (max-width: $breakpoint-md) {
+    //      max-width: $breakpoint-md;
+    //
+    // }
+    // @media screen and (max-width: $breakpoint-xs) {
+    //     max-width: $breakpoint-xs;
+    //     align-items: center;
+    // }
 }
 
 section + section {
