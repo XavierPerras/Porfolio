@@ -27,7 +27,7 @@
                         <div class="herotxt">
                             <p>Réalisé par: moi</p>
                             <p>Réalisé en 2021</p>
-                            <p>effet sonore:</p>
+                            <p>effet sonore: Libre de droits, mais pas fait par moi ! </p>
                         </div>
                         <div class="projetLog">
                             <h4>Logiciels que j’ai utilisé:</h4>

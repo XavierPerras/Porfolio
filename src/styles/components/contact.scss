@@ -14,7 +14,20 @@
         display: flex;
         justify-content: space-between;
     }
-    .form {
+    .gravityForm {
         color: white;
+    }
+}
+.gform_button {
+    font-weight: bold;
+    background-color: var(--color-btn-inactif);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: var(--shadow);
+
+    &:hover {
+        background-color: var(--color-btn-actif);
+        color: black;
+        text-decoration: none;
     }
 }

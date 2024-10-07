@@ -15,6 +15,7 @@
                     Je suis en technique d’intégration multimédia au Cégep Édouard-Montpetit. Je termine ma technique en mai
                     2025. J’aime la 3D et l’intégration web.
                 </p>
+                <a class="ttsproj bouton " href="https://xperras.dectim.ca/projets/">Mes projets!</a>
             </div>
         </div>
     </section>
