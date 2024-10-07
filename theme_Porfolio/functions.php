@@ -11,3 +11,8 @@ add_action('init', 'pw_creer_menu');
 
 
 // Register Custom Post Type
+function enqueue_custom_scripts() {
+    // Enqueue your JavaScript file
+    wp_enqueue_script('icons-script', get_template_directory_uri() . '/path/to/your/icons.js', array(), null, true);
+}
+add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');

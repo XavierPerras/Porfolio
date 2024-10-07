@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> <?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/styles/main.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/dist/styles/main.css">
     <script>
-        iconsPath = '<?php bloginfo('template_url'); ?>/';
+        iconsPath = '<?php bloginfo('template_url'); ?>/dist/';
+        console.log(iconsPath); // Check if the path is correct
     </script>
-    <script src="<?php bloginfo('template_url'); ?>/scripts/main.js" defer></script>
+    <script src="<?php bloginfo('template_url'); ?>/dist/scripts/main.js" defer></script>
 </head>
 <body <?php body_class(); ?> data-component="Scrolly" > 
 

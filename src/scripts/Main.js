@@ -9,6 +9,7 @@ class Main {
   init() {
     document.documentElement.classList.add('has-js');
     Icons.load(); //Aucune icône dans ce projet
+    console.log(Icons);
 
     new ComponentFactory();
   }
