@@ -51,7 +51,7 @@
     }
     &:hover span {
         transform: translateX(0);
-        max-width: max-content; /* Adjust according to the content */
+        max-width: 200px; /* Adjust according to the content */
         opacity: 1;
     }
     @media screen and (min-width: $breakpoint-md) {

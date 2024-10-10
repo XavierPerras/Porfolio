@@ -47,12 +47,12 @@
                 overflow: hidden;
                 transform: translateX(-50px);
                 vertical-align: bottom;
-                transition: transform 0.5s ease-in, max-width 0.5s ease-in,
+                transition: transform 0.5s ease-in, max-width 1s ease-in,
                     opacity 0.5s ease;
             }
             &:hover span {
                 transform: translateX(0);
-                max-width: max-content; /* Adjust according to the content */
+                max-width: 200px; /* Adjust according to the content */
                 opacity: 1;
             }
         }

@@ -7,7 +7,7 @@
 
 <section class="hero">
         <div class="wrapper">
-            <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/assets/images/photoPro.png" alt="photo profesionnel de moi" />
+            <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/photoPro.png" alt="photo profesionnel de moi" />
             <div data-scrolly="fromRight" class="heroTxt">
                 <h1>Xavier Perras</h1>
                 <h2>
@@ -129,22 +129,22 @@
         </div>
         <div class="cards">
             <div class="card">
-                <img src="<?php bloginfo('template_url'); ?>/assets/images/nfl.jpg" alt="">
+                <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/nfl.jpg" alt="">
                 <div class="txt">
                     <p data-scrolly='flipFromBottom'>Je joue au football dans la ligue junior QJFL et j'aime regarder les matchs NFL, NCAA, et CFL. </p>
                 </div>
             </div>
-            <div class="card"> <img src="<?php bloginfo('template_url'); ?>/assets/images/gym.jpg" alt="">
+            <div class="card"> <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/gym.jpg" alt="">
                 <div class="txt">
                     <p data-scrolly='flipFromBottom'>J'aime m'entraîner à la salle de sport. Cela me permet de rester en forme et de me dépasser physiquement.</p>
                 </div>
             </div>
-            <div class="card"> <img src="<?php bloginfo('template_url'); ?>/assets/images/gaming.jpg" alt="">
+            <div class="card"> <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/gaming.jpg" alt="">
                 <div class="txt">
                     <p data-scrolly='flipFromBottom'>Je suis un grand fan de RPG et de FPS. Les RPG, comme Monster Hunter: World, me captivent avec leurs récits riches, leurs systèmes de progression et la personnalisation des personnages. D'un autre côté, les FPS comme Ghost Recon me passionnent pour leur action rapide, la stratégie en équipe et l'adrénaline des combats en temps réel.</p>
                 </div>
             </div>
-            <div class="card"> <img src="<?php bloginfo('template_url'); ?>/assets/images/anime.jpg" alt="">
+            <div class="card"> <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/anime.jpg" alt="">
                 <div class="txt">
                     <p data-scrolly='flipFromBottom'>J'aime beaucoup les animes, les mangas et les manhwas. Ils me plongent dans des histoires captivantes avec des dessins vraiment intéressants.</p>
                 </div>

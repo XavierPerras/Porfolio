@@ -3,7 +3,7 @@
 
     <section class="hero">
         <div class="wrapper">
-            <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/assets/images/photoPro.png" alt="photo profesionnel de moi" />
+            <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/photoPro.png" alt="photo profesionnel de moi" />
             <div data-scrolly="fromRight" class="heroTxt">
                 <h1>Xavier Perras</h1>
                 <h2>

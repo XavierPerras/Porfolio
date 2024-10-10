@@ -1,0 +1,50 @@
+.accordion {
+    display: flex;
+
+    gap: 30px;
+    margin: 0 auto;
+    @media screen and (max-width: $breakpoint-md) {
+        flex-wrap: wrap;
+    }
+}
+
+.accordion-item {
+    width: 90%;
+}
+
+.accordion-toggle {
+    display: none; /* Hide the checkbox */
+}
+
+.accordion-title {
+    display: block;
+    background-color: var(--color-btn-inactif);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    cursor: pointer;
+    user-select: none;
+    &:hover {
+        // while hover
+        background-color: var(--color-btn-actif);
+        color: var(--color-black);
+    }
+}
+.accordion-toggle:checked + .accordion-title {
+    //when click
+    background-color: var(--color-btn-actif);
+    color: var(--color-black);
+}
+
+.accordion-content {
+    max-height: 0; /* Start closed */
+    overflow: hidden;
+    transition: max-height 0.5s ease; /* Smooth transition */
+    padding: 0 10px; /* Initial padding */
+}
+
+.accordion-toggle:checked + .accordion-title + .accordion-content {
+    max-height: 100%; /* Adjust as needed */
+    padding: 10px; /* Add padding when open */
+}
