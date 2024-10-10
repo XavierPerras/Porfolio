@@ -1,36 +1,13 @@
 .projet {
-    .projetHero {
-        display: flex;
-        justify-content: space-between;
-        margin: 50px 0;
-    }
-    .projetHerotxt {
-        margin: 0 20px;
-        gap: 20px;
-    }
-    .heroHead {
-        border-bottom: 5px solid #eaeaea;
-    }
-    .herotxt {
-        margin-bottom: 20px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        p {
-            margin: 5px 0;
-        }
-    }
     a {
         padding: 10px;
-    }
-
-    img {
     }
 
     h1 {
         border-bottom: 10px solid #eaeaea;
         margin: 10px 0;
         /* shadow */
-        text-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.45);
+        text-shadow: var(--shadow);
     }
     h2 {
         margin: 10px 0;
@@ -38,15 +15,36 @@
     h4 {
         margin: 5px 0;
     }
-    .projetLog {
-        .item {
-            gap: 5px;
-        }
+}
+.projetHero {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.projetHerotxt {
+    margin: 0 20px;
+    gap: 20px;
+}
+.heroHead {
+    border-bottom: 5px solid #eaeaea;
+}
+.herotxt {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    p {
+        margin: 5px 0;
+    }
+}
 
-        .projetlogIcon {
-            display: flex;
-            gap: 20px;
-        }
+.projetLog {
+    .item {
+        gap: 5px;
+    }
+
+    .projetlogIcon {
+        display: flex;
+        gap: 20px;
     }
 }
 .projetContentTxt {
@@ -72,4 +70,28 @@
 }
 .sketchfab-embed-wrapper {
     text-align: center;
+}
+
+//Responsive
+
+@media screen and (max-width: $breakpoint-md) {
+    .projetHero {
+        display: block;
+
+        margin: 50px 0;
+    }
+
+    .herotxt {
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .projetContentTxt {
+        display: block;
+    }
+    .projetContentImg {
+        display: block;
+
+        margin-top: 20px;
+    }
 }

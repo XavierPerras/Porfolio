@@ -14,6 +14,7 @@ export default class Carousel {
         nextEl: this.element.querySelector('.swiper-button-next'),
         prevEl: this.element.querySelector('.swiper-button-prev'),
       },
+      setWrapperSize: true,
     };
     this.init();
   }

@@ -49,18 +49,7 @@
                     <a class="bouton" href="projet.html">Voir le projet</a>
                 </div>
             </div>
-            <div class="projetsContent">
-                <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/imgTimTool.png" alt="photo profesionnel de moi" />
-                <div data-scrolly="fromRight" class="projetsTxt">
-                    <h3>nom de projet</h3>
-                    <h2>Description technique</h2>
-                    <p>
-                        courte descritpion /Événement académique. Participation au webjam 2024. Création d’un site web en
-                        moins de 48h!
-                    </p>
-                    <a class="bouton" href="projet.html">Voir le projet</a>
-                </div>
-            </div>
+           
         </div>
     </section>
     <?php get_footer(); ?>

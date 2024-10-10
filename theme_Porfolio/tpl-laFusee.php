@@ -50,12 +50,17 @@
                 </div>
             </div>
         </section>
-        <section class="projetContent">
-            <div class="wrapper">
+   
+<section class="wrapper">
+    <div class="swiper projetContent" data-gap="120" data-loop="loop" data-component="Carousel">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
                 <div class="inspiration">
                     <div class="projetContentTxt">
-                        <h3 data-scrolly="fromLeft">Inspiration!</h3>
-                        <p data-scrolly="fromRight">
+                        <h3>Inspiration!</h3>
+                        <p>
                             Inspirée du SR-71 Blackbird, la fusée spatiale présente un corps fuselé et aérodynamique
                             pour réduire la traînée, avec des ailerons inclinés en V pour plus de stabilité. Son
                             revêtement sombre et thermorésistant rappelle les matériaux furtifs de l'avion. Les moteurs
@@ -64,20 +69,22 @@
                         </p>
                     </div>
                     <div class="projetContentImg">
-                        <div data-scrolly="fromLeft" class="projetImg">
+                        <div class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/blackBird.jpg" alt="" />
                             <p>Image Du SR-71 Blackbird</p>
                         </div>
-                        <div data-scrolly="fromRight" class="projetImg">
+                        <div class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/croquis.jpg" alt="" />
                             <p>Croquis à main levée</p>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="swiper-slide">
                 <div class="inspiration">
                     <div class="projetContentTxt">
-                        <h3 data-scrolly="fromLeft">Modélisation!</h3>
-                        <p data-scrolly="fromRight">
+                        <h3>Modélisation!</h3>
+                        <p>
                             Dans Blender, j'ai conçu le modèle 3D de ma fusée en utilisant des modificateurs de miroir
                             pour assurer la symétrie parfaite des ailerons et du corps. J'ai commencé par modéliser le
                             corps principal avec un cylindre allongé, auquel j'ai ajouté un cône pour la pointe. Pour
@@ -88,20 +95,22 @@
                         </p>
                     </div>
                     <div class="projetContentImg">
-                        <div data-scrolly="fromLeft" class="projetImg">
+                        <div class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
                             <p>Image du wireframe du décor et de la fusée.</p>
                         </div>
-                        <div data-scrolly="fromRight" class="projetImg">
+                        <div class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/viewportAnime.jpg" alt="" />
                             <p>Image du viewport d'animation.</p>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="swiper-slide">
                 <div class="inspiration">
                     <div class="projetContentTxt">
-                        <h3 data-scrolly="fromLeft">Animation!</h3>
-                        <p data-scrolly="fromRight">
+                        <h3>Animation!</h3>
+                        <p>
                             Pour
                             <b>l'animation</b>
                             , Blender utilise la technique des
@@ -115,18 +124,108 @@
                         </p>
                     </div>
                     <div class="projetContentImg">
-                        <div data-scrolly="fromLeft" class="projetImg">
+                        <div class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
                             <p>Image du wireframe du décor et de la fusée.</p>
                         </div>
-                        <div data-scrolly="fromRight" class="projetImg">
+                        <div class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/viewportAnime.jpg" alt="" />
                             <p>Image du viewport d'animation.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<section class="responsive">
+    <div class="wrapper">
+    <div class="inspiration">
+                    <div class="projetContentTxt">
+                        <h3>Inspiration!</h3>
+                        <p>
+                            Inspirée du SR-71 Blackbird, la fusée spatiale présente un corps fuselé et aérodynamique
+                            pour réduire la traînée, avec des ailerons inclinés en V pour plus de stabilité. Son
+                            revêtement sombre et thermorésistant rappelle les matériaux furtifs de l'avion. Les moteurs
+                            intégrés, dissimulés pour minimiser la résistance, s'inspirent des réacteurs du SR-71,
+                            optimisés pour le vide spatial, offrant ainsi un design rapide et agressif.
+                        </p>
+                    </div>
+                    <div class="projetContentImg">
+                        <div class="projetImg">
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/blackBird.jpg" alt="" />
+                            <p>Image Du SR-71 Blackbird</p>
+                        </div>
+                        <div class="projetImg">
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/croquis.jpg" alt="" />
+                            <p>Croquis à main levée</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+                <div class="inspiration">
+                    <div class="projetContentTxt">
+                        <h3>Modélisation!</h3>
+                        <p>
+                            Dans Blender, j'ai conçu le modèle 3D de ma fusée en utilisant des modificateurs de miroir
+                            pour assurer la symétrie parfaite des ailerons et du corps. J'ai commencé par modéliser le
+                            corps principal avec un cylindre allongé, auquel j'ai ajouté un cône pour la pointe. Pour
+                            les ailerons triangulaires, je les ai créés une seule fois, puis je les ai dupliqués et
+                            disposés symétriquement grâce à l'outil de miroir. J'ai ajouté des détails comme des
+                            panneaux, des vis et des textures métalliques pour obtenir un effet à la fois réaliste et
+                            stylisé, tout en restant fidèle à un design fonctionnel et futuriste.
+                        </p>
+                    </div>
+                    <div class="projetContentImg">
+                        <div class="projetImg">
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
+                            <p>Image du wireframe du décor et de la fusée.</p>
+                        </div>
+                        <div class="projetImg">
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/viewportAnime.jpg" alt="" />
+                            <p>Image du viewport d'animation.</p>
+                        </div>
+                    </div>
+              
+            </div>
+            
+                <div class="inspiration">
+                    <div class="projetContentTxt">
+                        <h3>Animation!</h3>
+                        <p>
+                            Pour
+                            <b>l'animation</b>
+                            , Blender utilise la technique des
+                            <b>keyframes (images clés)</b>
+                            pour créer les mouvements de la fusée. L'animation du décollage commence par définir la
+                            position initiale de la fusée au sol. Ensuite, des keyframes sont placées à des intervalles
+                            pour faire monter la fusée progressivement, tout en simulant l'activation des moteurs avec
+                            des effets de particules pour le feu et la fumée. Grâce à ces keyframes, on obtient une
+                            animation fluide et réaliste, illustrant parfaitement la puissance et la dynamique du
+                            décollage.
+                        </p>
+                    </div>
+                    <div class="projetContentImg">
+                        <div class="projetImg">
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
+                            <p>Image du wireframe du décor et de la fusée.</p>
+                        </div>
+                        <div class="projetImg">
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/viewportAnime.jpg" alt="" />
+                            <p>Image du viewport d'animation.</p>
+                        </div>
+                    </div>
+               
+            </div>
+    </div>
+</section>
+
+
+      
         <section class="sketchfab">
             <div class="wrapper">
                 <h3>Le modèle SketchFab.</h3>
