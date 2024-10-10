@@ -2,7 +2,7 @@
     display: flex;
 
     gap: 30px;
-    margin: 0 auto;
+    margin: 20px auto;
     @media screen and (max-width: $breakpoint-md) {
         flex-wrap: wrap;
     }

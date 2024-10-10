@@ -43,104 +43,114 @@
 
         </div>
     </section>
-    <section class="CLQ">
-        <div class="wrapper">
-            <div data-scrolly='fromLeft' class="competence">
-                <h3>Mes Compétences</h3>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-integration"></use>
-                    </svg>
-                    <h4>Intégration web,</h4>
-                </div>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-animation"></use>
-                    </svg>
-                    <h4>Animation 3D,</h4>
-                </div>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-animation"></use>
-                    </svg>
-                    <h4>Animation 2D,</h4>
-                </div>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-web"></use>
-                    </svg>
-                    <h4>Développement web,</h4>
-                </div>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-modelisation"></use>
-                    </svg>
-                    <h4>Modélisation 3D,</h4>
-                </div>
-            </div>
-            <div data-scrolly='fromLittle' class="logiciel">
-                <h3>Logiciels que j’utilise!</h3>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-blender"></use>
-                    </svg>
-                    <h4>Blender</h4>
-                </div>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-vsCode"></use>
-                    </svg>
-                    <h4>Vs Code</h4>
-                </div>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-webstorm"></use>
-                    </svg>
-                    <h4>Webstorm</h4>
-                </div>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-davinci"></use>
-                    </svg>
-                    <h4>DaVinci Resolve</h4>
-                </div>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-inkscape"></use>
-                    </svg>
-                    <h4>Inkscape</h4>
+<section class="CLQ">
+    <div class="wrapper">
+        <div class="accordion">
+            <div data-scrolly="fromLeft" class="accordion-item competence">
+                <input type="checkbox" id="item1" class="accordion-toggle" />
+                <label for="item1" class="accordion-title"><h3>Mes Compétences</h3></label>
+                <div class="accordion-content">
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-integration"></use>
+                        </svg>
+                        <h4>Intégration web,</h4>
+                    </div>
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-animation"></use>
+                        </svg>
+                        <h4>Animation 3D,</h4>
+                    </div>
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-animation"></use>
+                        </svg>
+                        <h4>Animation 2D,</h4>
+                    </div>
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-web"></use>
+                        </svg>
+                        <h4>Développement web,</h4>
+                    </div>
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-modelisation"></use>
+                        </svg>
+                        <h4>Modélisation 3D,</h4>
+                    </div>
                 </div>
             </div>
-
-            <div data-scrolly='fromRight' class="qualite">
-                <h3>Mes Qualitées</h3>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-methodique"></use>
-                    </svg>
-                    <h4>Méthodique</h4>
+            <div data-scrolly="fromLittle" class="accordion-item logiciel">
+                <input type="checkbox" id="item2" class="accordion-toggle" />
+                <label for="item2" class="accordion-title"><h3>Logiciels que j’utilise!</h3></label>
+                <div class="accordion-content">
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-blender"></use>
+                        </svg>
+                        <h4>Blender</h4>
+                    </div>
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-vsCode"></use>
+                        </svg>
+                        <h4>Vs Code</h4>
+                    </div>
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-webstorm"></use>
+                        </svg>
+                        <h4>Webstorm</h4>
+                    </div>
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-davinci"></use>
+                        </svg>
+                        <h4>DaVinci Resolve</h4>
+                    </div>
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-inkscape"></use>
+                        </svg>
+                        <h4>Inkscape</h4>
+                    </div>
                 </div>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-discipline"></use>
-                    </svg>
-                    <h4>Discipliné</h4>
-                </div>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-solution"></use>
-                    </svg>
-                    <h4>Trouveur de solutions</h4>
-                </div>
-                <div class="item">
-                    <svg class="icon icon--lg">
-                        <use xlink:href="#icon-curieux"></use>
-                    </svg>
-                    <h4>Curieux</h4>
+            </div>
+            <div data-scrolly="fromRight" class="accordion-item qualite">
+                <input type="checkbox" id="item3" class="accordion-toggle" />
+                <label for="item3" class="accordion-title"><h3>Mes Qualitées</h3></label>
+                <div class="accordion-content">
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-methodique"></use>
+                        </svg>
+                        <h4>Méthodique</h4>
+                    </div>
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-discipline"></use>
+                        </svg>
+                        <h4>Discipliné</h4>
+                    </div>
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-solution"></use>
+                        </svg>
+                        <h4>Trouveur de solutions</h4>
+                    </div>
+                    <div class="item">
+                        <svg class="icon icon--lg">
+                            <use xlink:href="#icon-curieux"></use>
+                        </svg>
+                        <h4>Curieux</h4>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
    
 
     <?php get_footer(); ?>
