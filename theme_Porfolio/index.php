@@ -27,7 +27,7 @@
                     <h3>La fusée</h3>
                     <h2>Blender, 3D, montage sonore</h2>
                     <p>Décollange d’une fusée dans l’espace. Elle va entrer dans l’hyper vitesse</p>
-                    <a class="bouton" href="laFusee.html">aller voir</a>
+                    <a class="bouton" href="https://xperras.dectim.ca/la-fusee/">aller voir</a>
                 </div>
             </div>
             <div class="projetsContent">
@@ -38,7 +38,7 @@
                     <p>Les outils de programmation web, le réusinage et le partage de code sont essentiels pour réutiliser des ressources, économiser du temps, collaborer efficacement et améliorer la qualité des sites et applications interactifs.</p>
                     <a class="bouton" href="projet.html">aller voir</a>
                 </div>
-            </div> <a class="bouton ttsproj" href="https://xperras.dectim.ca/projets/">Voir les projets</a>
+            </div> <a class="bouton ttsproj" href="https://xperras.dectim.ca/timtools">Voir les projets</a>
 
         </div>
     </section>

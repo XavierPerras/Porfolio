@@ -28,7 +28,7 @@
             </div>
 
             <div class="projetsContent">
-                <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/imgTimTool.png" alt="photo profesionnel de moi" />
+                <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/imgTimTool.png" alt="photo captivante du projets!" />
                 <div data-scrolly="fromRight" class="projetsTxt">
                     <h3>TimTools</h3>
                     <h2>Web, html, css, js</h2>
@@ -36,7 +36,7 @@
                         TimTools est une boîte à outils JavaScript visant à simplifier le développement en offrant des
                         solutions optimisées pour améliorer la productivité, la performance.
                     </p>
-                    <a class="bouton" href="#">Voir le projet</a>
+                    <a class="bouton" href="https://xperras.dectim.ca/timtools">Voir le projet</a>
                 </div>
             </div>
 

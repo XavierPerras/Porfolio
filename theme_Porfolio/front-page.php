@@ -37,7 +37,7 @@
                     <h3>TimTools</h3>
                     <h2>HTML, SCSS et JavaScript</h2>
                     <p>Les outils de programmation web, le réusinage et le partage de code sont essentiels pour réutiliser des ressources, économiser du temps, collaborer efficacement et améliorer la qualité des sites et applications interactifs.</p>
-                    <a class="bouton" href="projet.html">Voir le projet</a>
+                    <a class="bouton" href="https://xperras.dectim.ca/timtools">Voir le projet</a>
                 </div>
             </div> <a class="bouton ttsproj" href="https://xperras.dectim.ca/projets/">Voir les projets</a>
 
