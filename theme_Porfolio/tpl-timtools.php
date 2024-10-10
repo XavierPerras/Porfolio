@@ -22,7 +22,7 @@
                         <div class="heroHead">
                             <h1>TimTools</h1>
                             <h2>Web | Projet Étudiant</h2>
-                            <p>Ma Boîte à outils est une plateforme en ligne que j'ai créée pour ma productivité.</p>
+                            <p>Ma boîte à outils est une plateforme en ligne que j'ai créée pour ma productivité.</p>
                         </div>
                         <div class="herotxt">
                             <p>Réalisé par: moi</p>
