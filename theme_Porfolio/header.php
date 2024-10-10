@@ -19,7 +19,7 @@
         <div class="wrapper">
             <div class="head">
                 <a data-scrolly='fromLeft' href="https://xperras.dectim.ca" class="header__brand">
-                    <h2>Xavier Perras</h2>
+                <h2>X<span>avier</span><span>&nbsp;</span>P<span>erras</span></h2>
                 </a>
 
                 

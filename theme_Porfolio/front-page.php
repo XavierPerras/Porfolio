@@ -28,7 +28,7 @@
                     <h3>La fusée</h3>
                     <h2>Blender, 3D, montage sonore</h2>
                     <p>Décollange d’une fusée dans l’espace. Elle va entrer dans l’hyper vitesse</p>
-                    <a class="bouton" href="https://xperras.dectim.ca/la-fusee/">aller voir</a>
+                    <a class="bouton" href="https://xperras.dectim.ca/la-fusee/">Voir le projet</a>
                 </div>
             </div>
             <div class="projetsContent">
@@ -37,7 +37,7 @@
                     <h3>TimTools</h3>
                     <h2>HTML, SCSS et JavaScript</h2>
                     <p>Les outils de programmation web, le réusinage et le partage de code sont essentiels pour réutiliser des ressources, économiser du temps, collaborer efficacement et améliorer la qualité des sites et applications interactifs.</p>
-                    <a class="bouton" href="projet.html">aller voir</a>
+                    <a class="bouton" href="projet.html">Voir le projet</a>
                 </div>
             </div> <a class="bouton ttsproj" href="https://xperras.dectim.ca/projets/">Voir les projets</a>
 
@@ -138,39 +138,9 @@
                     </svg>
                     <h4>Curieux</h4>
                 </div>
-
-            </div>
-        </div>
-        </div>
-        </div>
-    </section>
-    <section class="jaime">
-        <div class="wrapper">
-            <h2 data-scrolly='fromLeft'>Mes loisirs</h2>
-        </div>
-        <div class="cards">
-            <div class="card">
-                <img src="<?php bloginfo('template_url'); ?>/assets/images/nfl.jpg" alt="">
-                <div class="txt">
-                    <p data-scrolly='flipFromBottom'>Je joue au football dans la ligue junior QJFL et j'aime regarder les matchs NFL, NCAA, et CFL. </p>
-                </div>
-            </div>
-            <div class="card"> <img src="<?php bloginfo('template_url'); ?>/assets/images/gym.jpg" alt="">
-                <div class="txt">
-                    <p data-scrolly='flipFromBottom'>J'aime m'entraîner à la salle de sport. Cela me permet de rester en forme et de me dépasser physiquement.</p>
-                </div>
-            </div>
-            <div class="card"> <img src="<?php bloginfo('template_url'); ?>/assets/images/gaming.jpg" alt="">
-                <div class="txt">
-                    <p data-scrolly='flipFromBottom'>Je suis un grand fan de RPG et de FPS. Les RPG, comme Monster Hunter: World, me captivent avec leurs récits riches, leurs systèmes de progression et la personnalisation des personnages. D'un autre côté, les FPS comme Ghost Recon me passionnent pour leur action rapide, la stratégie en équipe et l'adrénaline des combats en temps réel.</p>
-                </div>
-            </div>
-            <div class="card"> <img src="<?php bloginfo('template_url'); ?>/assets/images/anime.jpg" alt="">
-                <div class="txt">
-                    <p data-scrolly='flipFromBottom'>J'aime beaucoup les animes, les mangas et les manhwas. Ils me plongent dans des histoires captivantes avec des dessins vraiment intéressants.</p>
-                </div>
             </div>
         </div>
     </section>
+   
 
     <?php get_footer(); ?>

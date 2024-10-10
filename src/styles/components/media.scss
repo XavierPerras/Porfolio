@@ -1,5 +1,13 @@
 .media {
     display: flex;
-    gap: 20px;
+    gap: 10px;
+
     width: 25px;
+    a {
+        padding: 5px;
+    }
+}
+.txtcont a {
+    gap: 10px;
+    padding: 5px;
 }
