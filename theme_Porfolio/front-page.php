@@ -23,7 +23,7 @@
         <div class="wrapper">
             <h2 data-scrolly='fromLeft'>Quelque Projets!</h2>
             <div class="projetsContent">
-                <img data-scrolly='fromLeft' src="<?php bloginfo('template_url'); ?>/assets/images/laFusée/hero.jpg" alt="photo profesionnel de moi" />
+                <img data-scrolly='fromLeft' src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusée/hero.jpg" alt="photo profesionnel de moi" />
                 <div data-scrolly='fromRight' class="projetsTxt">
                     <h3>La fusée</h3>
                     <h2>Blender, 3D, montage sonore</h2>
@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="projetsContent">
-                <img data-scrolly='fromLeft' src="<?php bloginfo('template_url'); ?>/assets/images/imgTimTool.png" alt="photo profesionnel de moi" />
+                <img data-scrolly='fromLeft' src="<?php bloginfo('template_url'); ?>/dist/assets/images/imgTimTool.png" alt="photo profesionnel de moi" />
                 <div data-scrolly='fromRight' class="projetsTxt">
                     <h3>TimTools</h3>
                     <h2>HTML, SCSS et JavaScript</h2>

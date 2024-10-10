@@ -9,7 +9,7 @@
             <h1 data-scrolly="fromTop">Mes Projets!</h1>
 
             <div class="projetsContent">
-                <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/assets/images/laFusée/hero.jpg" alt="photo profesionnel de moi" />
+                <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusée/hero.jpg" alt="photo profesionnel de moi" />
                 <div data-scrolly="fromRight" class="projetsTxt">
                     <h3>La fusée</h3>
                     <h2>Blender, 3D, montage sonore</h2>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="projetsContent">
-                <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/assets/images/leChateau.jpg" alt="photo profesionnel de moi" />
+                <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/leChateau.jpg" alt="photo profesionnel de moi" />
                 <div data-scrolly="fromRight" class="projetsTxt">
                     <h3>Le Château</h3>
                     <h2>Blender, Video, suite adobe</h2>
@@ -28,7 +28,7 @@
             </div>
 
             <div class="projetsContent">
-                <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/assets/images/imgTimTool.png" alt="photo profesionnel de moi" />
+                <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/imgTimTool.png" alt="photo profesionnel de moi" />
                 <div data-scrolly="fromRight" class="projetsTxt">
                     <h3>TimTools</h3>
                     <h2>Web, html, css, js</h2>
@@ -41,7 +41,7 @@
             </div>
 
             <div class="projetsContent">
-                <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/assets/images/webjam.jpg" alt="photo profesionnel de moi" />
+                <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/webjam.jpg" alt="photo profesionnel de moi" />
                 <div data-scrolly="fromRight" class="projetsTxt">
                     <h3>WebJam</h3>
                     <h2>Web, html, css, js, php</h2>
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="projetsContent">
-                <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/assets/images/imgTimTool.png" alt="photo profesionnel de moi" />
+                <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/imgTimTool.png" alt="photo profesionnel de moi" />
                 <div data-scrolly="fromRight" class="projetsTxt">
                     <h3>nom de projet</h3>
                     <h2>Description technique</h2>

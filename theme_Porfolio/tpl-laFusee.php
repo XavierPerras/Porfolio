@@ -65,11 +65,11 @@
                     </div>
                     <div class="projetContentImg">
                         <div data-scrolly="fromLeft" class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/images/laFusee/blackBird.jpg" alt="" />
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/blackBird.jpg" alt="" />
                             <p>Image Du SR-71 Blackbird</p>
                         </div>
                         <div data-scrolly="fromRight" class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/images/laFusee/croquis.jpg" alt="" />
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/croquis.jpg" alt="" />
                             <p>Croquis à main levée</p>
                         </div>
                     </div>
@@ -89,11 +89,11 @@
                     </div>
                     <div class="projetContentImg">
                         <div data-scrolly="fromLeft" class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/images/laFusee/wireframe.jpg" alt="" />
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
                             <p>Image du wireframe du décor et de la fusée.</p>
                         </div>
                         <div data-scrolly="fromRight" class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/images/laFusee/viewportAnime.jpg" alt="" />
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/viewportAnime.jpg" alt="" />
                             <p>Image du viewport d'animation.</p>
                         </div>
                     </div>
@@ -116,11 +116,11 @@
                     </div>
                     <div class="projetContentImg">
                         <div data-scrolly="fromLeft" class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/images/laFusee/wireframe.jpg" alt="" />
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
                             <p>Image du wireframe du décor et de la fusée.</p>
                         </div>
                         <div data-scrolly="fromRight" class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/images/laFusee/viewportAnime.jpg" alt="" />
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/viewportAnime.jpg" alt="" />
                             <p>Image du viewport d'animation.</p>
                         </div>
                     </div>
