@@ -31,7 +31,7 @@
                 <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/assets/images/imgTimTool.png" alt="photo profesionnel de moi" />
                 <div data-scrolly="fromRight" class="projetsTxt">
                     <h3>TimTools</h3>
-                    <h2>Web,html,css,js</h2>
+                    <h2>Web, html, css, js</h2>
                     <p>
                         TimTools est une boîte à outils JavaScript visant à simplifier le développement en offrant des
                         solutions optimisées pour améliorer la productivité, la performance.
@@ -44,7 +44,7 @@
                 <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/assets/images/webjam.jpg" alt="photo profesionnel de moi" />
                 <div data-scrolly="fromRight" class="projetsTxt">
                     <h3>WebJam</h3>
-                    <h2>Web,html,css,js,php</h2>
+                    <h2>Web, html, css, js, php</h2>
                     <p>Événement académique. Participation au webjam 2024. Création d’un site web en moins de 48h!</p>
                     <a class="bouton" href="projet.html">aller voir</a>
                 </div>
