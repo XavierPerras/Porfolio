@@ -49,29 +49,23 @@
             <div class="wrapper">
                 <div class="inspiration">
                     <div class="projetContentTxt">
-                        <h3 data-scrolly="fromLeft">Inspiration!</h3>
+                        <h3 data-scrolly="fromLeft">Le context de création!</h3>
                         <p data-scrolly="fromRight">
-                            Inspirée du SR-71 Blackbird, la fusée spatiale présente un corps fuselé et aérodynamique
-                            pour réduire la traînée, avec des ailerons inclinés en V pour plus de stabilité. Son
-                            revêtement sombre et thermorésistant rappelle les matériaux furtifs de l'avion. Les moteurs
-                            intégrés, dissimulés pour minimiser la résistance, s'inspirent des réacteurs du SR-71,
-                            optimisés pour le vide spatial, offrant ainsi un design rapide et agressif.
+                           
+Dans un cadre scolaire, j'ai créé un site web qui présente les différentes composantes apprises durant mon cours. Il inclut des exemples concrets comme l’effet "scrolly" pour des transitions fluides, un header fixe pour une navigation intuitive, et l’intégration de sections dynamiques. Ce site illustre mes compétences en HTML, CSS et JavaScript, en mettant en avant des éléments tels que les animations interactives et les mises en page adaptatives. J'ai conçu le tout pour être à la fois esthétique et fonctionnel, facilitant ainsi l'exploration du contenu.
                         </p>
                     </div>
                     <div class="projetContentImg">
                         <div data-scrolly="fromLeft" class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/blackBird.jpg" alt="" />
-                            <p>Image Du SR-71 Blackbird</p>
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/timtools/accueilTimTool.png" alt="" />
+                            <p>image de l'accueiI</p>
                         </div>
-                        <div data-scrolly="fromRight" class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/croquis.jpg" alt="" />
-                            <p>Croquis à main levée</p>
-                        </div>
+                      
                     </div>
                 </div>
                 <div class="inspiration">
                     <div class="projetContentTxt">
-                        <h3 data-scrolly="fromLeft">Modélisation!</h3>
+                        <h3 data-scrolly="fromLeft">Carousel</h3>
                         <p data-scrolly="fromRight">
                             Dans Blender, j'ai conçu le modèle 3D de ma fusée en utilisant des modificateurs de miroir
                             pour assurer la symétrie parfaite des ailerons et du corps. J'ai commencé par modéliser le
@@ -85,41 +79,46 @@
                     <div class="projetContentImg">
                         <div data-scrolly="fromLeft" class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
-                            <p>Image du wireframe du décor et de la fusée.</p>
+                            <p>GIF de la composante Carousel</p>
                         </div>
-                        <div data-scrolly="fromRight" class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/viewportAnime.jpg" alt="" />
-                            <p>Image du viewport d'animation.</p>
-                        </div>
+                       
                     </div>
                 </div>
                 <div class="inspiration">
                     <div class="projetContentTxt">
-                        <h3 data-scrolly="fromLeft">Animation!</h3>
+                        <h3 data-scrolly="fromLeft">Header</h3>
                         <p data-scrolly="fromRight">
-                            Pour
-                            <b>l'animation</b>
-                            , Blender utilise la technique des
-                            <b>keyframes (images clés)</b>
-                            pour créer les mouvements de la fusée. L'animation du décollage commence par définir la
-                            position initiale de la fusée au sol. Ensuite, des keyframes sont placées à des intervalles
-                            pour faire monter la fusée progressivement, tout en simulant l'activation des moteurs avec
-                            des effets de particules pour le feu et la fumée. Grâce à ces keyframes, on obtient une
-                            animation fluide et réaliste, illustrant parfaitement la puissance et la dynamique du
-                            décollage.
+                        La Composant Header est un composant JavaScript utilisé pour créer ou personnaliser l'en-tête d'un site web. JavaScript permet de créer des en-têtes personnalisés qui sont réactifs, animés ou ont d'autres fonctionnalités interactives.
                         </p>
                     </div>
                     <div class="projetContentImg">
                         <div data-scrolly="fromLeft" class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
-                            <p>Image du wireframe du décor et de la fusée.</p>
+                            <p>GIF de la composante Header</p>
                         </div>
-                        <div data-scrolly="fromRight" class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/viewportAnime.jpg" alt="" />
-                            <p>Image du viewport d'animation.</p>
-                        </div>
+                        
                     </div>
                 </div>
+                <div class="inspiration">
+                    <div class="projetContentTxt">
+                        <h3 data-scrolly="fromLeft">Scrolly</h3>
+                        <p data-scrolly="fromRight">
+                        La technique Scrolly est une façon innovante et dynamique de concevoir des sites Web modernes et engageants. Cette technique implique l'utilisation d'un défilement de page ou d'un défilement parallaxe pour créer une expérience de navigation immersive et interactive pour les visiteurs du site.
+                        </p>
+                    </div>
+                    <div class="projetContentImg">
+                        <div data-scrolly="fromLeft" class="projetImg">
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
+                            <p>GIF de la composante Scrolly</p>
+                        </div>
+                        <div data-scrolly="fromLeft" class="projetImg">
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
+                            <p>GIF de la composante Scrolly</p>
+                        </div>
+                        
+                    </div>
+                </div>
+               
             </div>
         </section>
         
