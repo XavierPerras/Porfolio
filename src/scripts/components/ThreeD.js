@@ -40,7 +40,7 @@ export default class ThreeD {
     );
 
     // Camera position
-    this.camera.position.set(20, -1, 3); // Set position using set(x, y, z)
+    this.camera.position.set(40, -1, 3); // Set position using set(x, y, z)
 
     this.controls = new OrbitControls(this.camera, this.canvas);
     this.controls.enableDamping = true;
@@ -109,7 +109,8 @@ export default class ThreeD {
 
     // Update the animation mixer if it exists
     if (this.mixer) {
-      this.mixer.update(this.clock.getDelta()); // Use delta time
+      const delta = this.clock.getDelta(); // Get the time elapsed since the last frame
+      this.mixer.update(delta * 1.5); // Update the mixer, 2x speed
     }
 
     this.renderer.render(this.scene, this.camera);
