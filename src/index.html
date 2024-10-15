@@ -1,19 +1,7 @@
 {% include '_partials/_header.html' %}
 <section class="hero">
     <div class="wrapper">
-        <img data-scrolly="fromLeft" src="assets/images/photoPro.png" alt="photo profesionnel de moi" />
-        <div data-scrolly="fromRight" class="heroTxt">
-            <h1>Xavier Perras</h1>
-            <h2>
-                Créateur 3D/
-                <br />
-                DevWeb junior
-            </h2>
-            <p>
-                Je suis en technique d’intégration multimédia au Cégep Édouard-Montpetit. Je termine ma technique en mai
-                2025. J’aime la 3D et l’intégration web.
-            </p>
-        </div>
+        <canvas data-component="ThreeD" class="webgl"></canvas>
     </div>
 </section>
 <section class="projets">
