@@ -7,6 +7,7 @@
         img {
             width: 720px;
             height: 450px;
+            object-fit: cover;
         }
 
         @media screen and (max-width: $breakpoint-md) {
@@ -33,6 +34,7 @@
     img {
         width: 720px;
         height: 450px;
+        object-fit: cover;
 
         box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
         @media screen and (max-width: $breakpoint-md) {

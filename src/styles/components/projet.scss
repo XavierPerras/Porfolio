@@ -51,6 +51,9 @@
     display: flex;
     justify-content: space-between;
     gap: 200px;
+    h3 {
+        width: -webkit-fill-available;
+    }
 }
 .projetContentImg {
     display: flex;
