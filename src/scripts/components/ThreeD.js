@@ -62,7 +62,7 @@ export default class ThreeD {
   loadModel() {
     const loader = new GLTFLoader();
     loader.load(
-      'assets/models/fusee.glb',
+      'assets/models/fuseeNoanim.glb',
       (gltf) => {
         this.model = gltf.scene; // Save the model
         this.scene.add(this.model); // Add the loaded model to the scene

@@ -46,7 +46,7 @@
                     <h3>WebJam</h3>
                     <h2>Web, html, css, js, php</h2>
                     <p>Événement académique. Participation au webjam 2024. Création d’un site web en moins de 48h!</p>
-                    <a class="bouton" href="projet.html">Voir le projet</a>
+                    <a class="bouton" href="https://xperras.dectim.ca/webjam/">Voir le projet</a>
                 </div>
             </div>
            
