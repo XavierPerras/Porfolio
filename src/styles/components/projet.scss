@@ -59,6 +59,11 @@
     p {
         margin: 0;
     }
+    img {
+        width: 100vh;
+        height: 300px;
+        object-fit: cover;
+    }
 }
 .inspiration {
     margin: 80px 0;

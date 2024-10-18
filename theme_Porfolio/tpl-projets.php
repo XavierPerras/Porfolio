@@ -20,10 +20,10 @@
             <div class="projetsContent">
                 <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/leChateau.jpg" alt="photo profesionnel de moi" />
                 <div data-scrolly="fromRight" class="projetsTxt">
-                    <h3>Le Château</h3>
+                    <h3>Le Banquet</h3>
                     <h2>Blender, Video, suite adobe</h2>
                     <p>Un château dans un monde merveilleux. Voici un court moment du banquet!</p>
-                    <a class="bouton" href="#">Voir le projet</a>
+                    <a class="bouton" href="https://xperras.dectim.ca/chateau/">Voir le projet</a>
                 </div>
             </div>
 
