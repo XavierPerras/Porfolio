@@ -74,7 +74,11 @@
                     </div>
                     <div class="projetContentImg">
                         <div class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/timtools/carousel_Timtools1.gif" alt="" />
+                            <p>GIF de la composante Carousel</p>
+                        </div>
+                        <div class="projetImg">
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/timtools/carousel_Timtools2.gif" alt="" />
                             <p>GIF de la composante Carousel</p>
                         </div>
                     </div>
@@ -95,12 +99,12 @@
                     </div>
                     <div class="projetContentImg">
                         <div class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
-                            <p>Image du wireframe du décor et de la fusée.</p>
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/timtools/header_Timtools.gif" alt="" />
+                            <p>GIF de l'apparition et de la disparition du header.</p>
                         </div>
                         <div class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/viewportAnime.jpg" alt="" />
-                            <p>Image du viewport d'animation.</p>
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/timtools/headerCode_timtools.png" alt="" />
+                            <p>Image du code de la composante Header.</p>
                         </div>
                     </div>
                 </div>
@@ -121,12 +125,12 @@
                     </div>
                     <div class="projetContentImg">
                         <div data-scrolly="fromLeft" class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/timtools/scrolly_Timtools.gif" alt="" />
                             <p>GIF de la composante Scrolly</p>
                         </div>
                         <div data-scrolly="fromLeft" class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/wireframe.jpg" alt="" />
-                            <p>GIF de la composante Scrolly</p>
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/timtools/scrollyCode_timtools.png" alt="" />
+                            <p>Image du code de la composante Scrolly.</p>
                         </div>
                     </div>
                 </div>

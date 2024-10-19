@@ -1,56 +1,55 @@
 <?php
 /* Template Name: Fusée */
-?> 
+?>
 <?php get_header(); ?>
 
-        <section class="projet">
-            <div class="wrapper">
-                <div class="projetHero">
-                    <iframe
-                        data-scrolly="fromLeft"
-                        width="871"
-                        height="490"
-                        src="https://www.youtube.com/embed/6IXWMH-EWU0"
-                        title="La fusée | Animation Blender"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"
-                        allowfullscreen
-                    ></iframe>
+<section class="projet">
+    <div class="wrapper">
+        <div class="projetHero">
+            <iframe
+                data-scrolly="fromLeft"
+                width="871"
+                height="490"
+                src="https://www.youtube.com/embed/6IXWMH-EWU0"
+                title="La fusée | Animation Blender"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
 
-                    <div data-scrolly="fromRight" class="projetHerotxt">
-                        <div class="heroHead">
-                            <h1>La fusée</h1>
-                            <h2>Animation 3D | Projet Étudiant</h2>
-                            <p>Décollange d’une fusée dans l’espace. Elle va entrer dans l’hyper vitesse</p>
+            <div data-scrolly="fromRight" class="projetHerotxt">
+                <div class="heroHead">
+                    <h1>La fusée</h1>
+                    <h2>Animation 3D | Projet Étudiant</h2>
+                    <p>Décollange d’une fusée dans l’espace. Elle va entrer dans l’hyper vitesse</p>
+                </div>
+                <div class="herotxt">
+                    <p>Réalisé par: moi</p>
+                    <p>Réalisé en 2021</p>
+                    <p>effet sonore: Libre de droits, mais pas fait par moi ! </p>
+                </div>
+                <div class="projetLog">
+                    <h4>Logiciels que j’ai utilisé:</h4>
+                    <div class="projetlogIcon">
+                        <div class="item">
+                            <svg class="icon icon--lg">
+                                <use xlink:href="#icon-blender"></use>
+                            </svg>
+                            <p>Blender</p>
                         </div>
-                        <div class="herotxt">
-                            <p>Réalisé par: moi</p>
-                            <p>Réalisé en 2021</p>
-                            <p>effet sonore: Libre de droits, mais pas fait par moi ! </p>
-                        </div>
-                        <div class="projetLog">
-                            <h4>Logiciels que j’ai utilisé:</h4>
-                            <div class="projetlogIcon">
-                                <div class="item">
-                                    <svg class="icon icon--lg">
-                                        <use xlink:href="#icon-blender"></use>
-                                    </svg>
-                                    <p>Blender</p>
-                                </div>
-                                <div class="item">
-                                    <svg class="icon icon--lg">
-                                        <use xlink:href="#icon-davinci"></use>
-                                    </svg>
-                                    <p>Davinci</p>
-                                </div>
-                            </div>
+                        <div class="item">
+                            <svg class="icon icon--lg">
+                                <use xlink:href="#icon-davinci"></use>
+                            </svg>
+                            <p>Davinci</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-   
+        </div>
+    </div>
+</section>
+
 <section class="wrapper">
     <div class="swiper projetContent" data-gap="120" data-loop="loop" data-component="Carousel">
         <!-- Additional required wrapper -->
@@ -144,57 +143,53 @@
 
 
 
-      
-        <section class="sketchfab">
-            <div class="wrapper">
-                <h3>Le modèle SketchFab.</h3>
 
-                <div class="sketchfab-embed-wrapper">
-                    <iframe
-                        title="Décollage de fusée"
-                        frameborder="0"
-                        width="1080"
-                        height="440"
-                        allowfullscreen
-                        mozallowfullscreen="true"
-                        webkitallowfullscreen="true"
-                        allow="autoplay; fullscreen; xr-spatial-tracking"
-                        xr-spatial-tracking
-                        execution-while-out-of-viewport
-                        execution-while-not-rendered
-                        web-share
-                        src="https://sketchfab.com/models/c6a2b4718f1449cdb7fc393371c37a5d/embed?autostart=1&preload=1&ui_hint=2"
-                    ></iframe>
-                    <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4a4a4a">
-                        <a
-                            href="https://sketchfab.com/3d-models/decollage-de-fusee-c6a2b4718f1449cdb7fc393371c37a5d?utm_medium=embed&utm_campaign=share-popup&utm_content=c6a2b4718f1449cdb7fc393371c37a5d"
-                            target="_blank"
-                            rel="nofollow"
-                            style="font-weight: bold; color: #1caad9"
-                        >
-                            Décollage de fusée
-                        </a>
-                        by
-                        <a
-                            href="https://sketchfab.com/WonderedGnat082?utm_medium=embed&utm_campaign=share-popup&utm_content=c6a2b4718f1449cdb7fc393371c37a5d"
-                            target="_blank"
-                            rel="nofollow"
-                            style="font-weight: bold; color: #1caad9"
-                        >
-                            Xavier Perras
-                        </a>
-                        on
-                        <a
-                            href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=c6a2b4718f1449cdb7fc393371c37a5d"
-                            target="_blank"
-                            rel="nofollow"
-                            style="font-weight: bold; color: #1caad9"
-                        >
-                            Sketchfab
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </section>
+<section class="sketchfab">
+    <div class="wrapper">
+        <h3>Le modèle SketchFab.</h3>
 
-        <?php get_footer(); ?>
+        <div class="sketchfab-embed-wrapper">
+            <iframe
+                title="Décollage de fusée"
+                frameborder="0"
+                width="1080"
+                height="440"
+                allowfullscreen
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"
+                allow="autoplay; fullscreen; xr-spatial-tracking"
+                xr-spatial-tracking
+                execution-while-out-of-viewport
+                execution-while-not-rendered
+                web-share
+                src="https://sketchfab.com/models/c6a2b4718f1449cdb7fc393371c37a5d/embed?autostart=1&preload=1&ui_hint=2"></iframe>
+            <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4a4a4a">
+                <a
+                    href="https://sketchfab.com/3d-models/decollage-de-fusee-c6a2b4718f1449cdb7fc393371c37a5d?utm_medium=embed&utm_campaign=share-popup&utm_content=c6a2b4718f1449cdb7fc393371c37a5d"
+                    target="_blank"
+                    rel="nofollow"
+                    style="font-weight: bold; color: #1caad9">
+                    Décollage de fusée
+                </a>
+                by
+                <a
+                    href="https://sketchfab.com/WonderedGnat082?utm_medium=embed&utm_campaign=share-popup&utm_content=c6a2b4718f1449cdb7fc393371c37a5d"
+                    target="_blank"
+                    rel="nofollow"
+                    style="font-weight: bold; color: #1caad9">
+                    Xavier Perras
+                </a>
+                on
+                <a
+                    href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=c6a2b4718f1449cdb7fc393371c37a5d"
+                    target="_blank"
+                    rel="nofollow"
+                    style="font-weight: bold; color: #1caad9">
+                    Sketchfab
+                </a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<?php get_footer(); ?>
