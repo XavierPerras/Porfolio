@@ -3,6 +3,7 @@
     background-color: var(--color-bg-secondary);
     padding: 10px 0;
     margin: 0;
+    width: 100vw;
     p {
         @media screen and (max-width: $breakpoint-md) {
         }
@@ -62,11 +63,5 @@
             align-items: center;
             justify-content: space-between;
         }
-    }
-    @media screen and (max-width: $breakpoint-md) {
-        width: 800px;
-    }
-    @media screen and (max-width: $breakpoint-xs) {
-        width: 220px;
     }
 }

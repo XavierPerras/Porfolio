@@ -8,11 +8,12 @@
     --font-p: 'Open Sans', sans-serif;
 
     /// Grosseur des textes
-    --font-size-h1: 3.43rem;
-    --font-size-h2: 3rem;
-    --font-size-h3: 2rem;
-    --font-size-h4: 1.5rem;
-    --font-size-p: 1.25rem;
-    --font-size-btn: 1.25rem;
-    --font-size-hName: 6rem;
+
+    --font-size-h1: #{typo(40px, 55px)};
+    --font-size-h2: #{typo(36px, 48px)};
+    --font-size-h3: #{typo(24px, 32px)};
+    --font-size-h4: #{typo(18px, 24px)};
+    --font-size-p: #{typo(16px, 20px)};
+    --font-size-btn: #{typo(16px, 20px)};
+    --font-size-hName: #{typo(78px, 96px)};
 }

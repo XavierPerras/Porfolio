@@ -17,19 +17,13 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 100vw;
         height: 100%;
         z-index: 2;
     }
 
     @media screen and (min-width: $breakpoint-xs) {
         justify-content: center;
-    }
-    @media screen and (max-width: $breakpoint-md) {
-        width: 800px;
-    }
-    @media screen and (max-width: $breakpoint-xs) {
-        width: 220px;
     }
 
     .header-is-hidden.is-scrolling-down & {
@@ -100,8 +94,7 @@
             flex-direction: row;
         }
     }
-    li {
-    }
+
     .nav-right {
         @media screen and (min-width: $breakpoint-md) {
             margin-left: calc(var(--logo-width) + 40px);
@@ -165,6 +158,7 @@
     text-align: center;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 //mobile
 .header__toggle {
@@ -221,21 +215,31 @@
         display: none;
     }
 }
-.nav-is-active {
-    body {
-        overflow: hidden;
-    }
+.nav-is-active body {
+    overflow: hidden;
 
-    @media screen and (max-width: $breakpoint-md) {
-        .header {
-            padding: 20% 0;
-        }
-        .head {
-            height: 100%;
-            align-items: center;
-            text-align: center;
-            display: block;
-            justify-content: space-between;
-        }
+    @media screen and (min-width: $breakpoint-md) {
+        overflow: auto;
+    }
+    .head {
+        flex-direction: column;
+        gap: 90px;
+    }
+    .header {
+        height: 100vh;
+    }
+    nav {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: $breakpoint-md) {
+    .header {
+        height: 100%;
+    }
+    .head {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
     }
 }
