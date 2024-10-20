@@ -1,6 +1,10 @@
 .hero {
     margin: 40px 0;
-
+    img {
+        width: 665px;
+        height: 665px;
+        object-fit: cover;
+    }
     .wrapper {
         display: flex;
         gap: -18px;

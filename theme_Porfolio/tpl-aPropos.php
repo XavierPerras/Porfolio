@@ -22,6 +22,12 @@
             </div>
         </div>
     </section>
+    <section class="videoPresentation"><div class="wrapper">
+        <h2>Ma vidéo de présentation!</h2>
+        <div class="video">
+<iframe class="video" src="https://www.youtube.com/embed/1IPMiYI9vZ4?si=uxa7W251BOVHpd-g" title="YouTube video player" 
+     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></div></section>
     <section class="CLQ">
     <div class="wrapper">
         <div class="accordion">
@@ -130,6 +136,7 @@
         </div>
     </div>
 </section>
+
     <section class="jaime">
         <div class="wrapper">
             <h2 data-scrolly='fromLeft'>Mes loisirs</h2>

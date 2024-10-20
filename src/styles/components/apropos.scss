@@ -1,0 +1,11 @@
+.videoPresentation {
+    margin: 20px 0;
+    .video {
+        margin: 0 auto;
+        width: 90vw;
+        height: 80vh;
+        object-fit: cover;
+        @media screen and (max-width: $breakpoint-md) {
+        }
+    }
+}
