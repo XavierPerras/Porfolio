@@ -1,4 +1,6 @@
 .projets {
+    width: 100vw;
+
     .projetsContent {
         display: flex;
         justify-content: center;
@@ -8,39 +10,33 @@
             width: 720px;
             height: 450px;
             object-fit: fill;
+            box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+            @media screen and (max-width: $breakpoint-md) {
+                width: 100%;
+                height: 100%;
+            }
         }
 
         @media screen and (max-width: $breakpoint-md) {
             flex-direction: column;
             align-items: center;
             margin-bottom: 80px;
-            width: 650px;
-        }
-        @media screen and (max-width: $breakpoint-xs) {
-            width: 250px;
+            .bouton {
+            }
         }
     }
     .projetsTxt {
         margin: 0 20px;
         width: 720px;
+        @media screen and (max-width: $breakpoint-md) {
+            width: 100%;
+        }
     }
     a {
         padding: 10px;
     }
     h1 {
         text-align: center;
-    }
-
-    img {
-        width: 720px;
-        height: 450px;
-        object-fit: fill;
-
-        box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
-        @media screen and (max-width: $breakpoint-md) {
-            width: auto;
-            height: auto;
-        }
     }
     h3 {
         border-bottom: 10px solid #eaeaea;
