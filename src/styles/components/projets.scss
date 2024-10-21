@@ -20,9 +20,13 @@
         @media screen and (max-width: $breakpoint-md) {
             flex-direction: column;
             align-items: center;
-            margin-bottom: 80px;
-            .bouton {
-            }
+            margin-bottom: 40px;
+        }
+        h3 {
+            border-bottom: 10px solid #eaeaea;
+
+            /* shadow */
+            text-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
         }
     }
     .projetsTxt {
@@ -35,15 +39,7 @@
     a {
         padding: 10px;
     }
-    h1 {
-        text-align: center;
-    }
-    h3 {
-        border-bottom: 10px solid #eaeaea;
 
-        /* shadow */
-        text-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
-    }
     .ttsproj {
         text-align: center;
         display: flex;

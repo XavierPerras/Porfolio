@@ -155,7 +155,7 @@
             </div>
             <div class="card"> <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/gaming.jpg" alt="">
                 <div class="txt">
-                    <p data-scrolly='flipFromBottom'>Je suis un grand fan de RPG et de FPS. Les RPG, comme Monster Hunter: World, me captivent avec leurs récits riches, leurs systèmes de progression et la personnalisation des personnages. D'un autre côté, les FPS comme Ghost Recon me passionnent pour leur action rapide, la stratégie en équipe et l'adrénaline des combats en temps réel.</p>
+                    <p data-scrolly='flipFromBottom'>Je suis un grand fan de RPG pour leurs récits, la personnalisation et le travail d'équipe, ainsi que de FPS pour l’action rapide et stratégique.</p>
                 </div>
             </div>
             <div class="card"> <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/anime.jpg" alt="">

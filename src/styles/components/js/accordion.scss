@@ -5,6 +5,7 @@
     margin: 20px auto;
     @media screen and (max-width: $breakpoint-md) {
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
