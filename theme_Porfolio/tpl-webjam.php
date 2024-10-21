@@ -11,23 +11,22 @@
 
             <div data-scrolly="fromRight" class="projetHerotxt">
                 <div class="heroHead">
-                    <h1>Wenjam 2024</h1>
+                    <h1>Webjam 2024</h1>
                     <h2>Web | Projet d'équipe | Projet Étudiant</h2>
                     <p>Création d'un site web en moins de 36 heures.</p>
                 </div>
                 <div class="herotxt">
-                    <p>Réalisé par: Antoine Breton, Alexandre Frégeau, Simon Bigra, moi</p>
+                    <p>Réalisé par : Antoine Breton, Alexandre Frégeau, Simon Bigra et moi</p>
                 </div>
                 <div class="projetLog">
-                    <h4>Logiciels que j’ai utilisé:</h4>
+                    <h4>Logiciels que j’ai utilisés :</h4>
                     <div class="projetlogIcon">
                         <div class="item">
                             <svg class="icon icon--lg">
                                 <use xlink:href="#icon-vsCode"></use>
                             </svg>
-                            <p>Vs code</p>
+                            <p>Vs Code</p>
                         </div>
-                        
                     </div>
                     <a class="bouton" target="_blank" href="https://abreton.dectim.ca/webjam/" href='target'>Voir le site!</a>
                 </div>
@@ -52,14 +51,12 @@
                     </div>
                     <div class="projetContentImg">
                         <div class="projetImg">
-                            
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/webjam/webjam_horaire.png" alt="" />
-                            <p>Planning des olympiades!</p>
+                            <p>Planification des olympiades!</p>
                         </div>
                         <div class="projetImg">
-                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/webjam/webjam_trello.png
-                            " alt="" />
-                            <p>Image du trello</p>
+                            <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/webjam/webjam_trello.png" alt="" />
+                            <p>Image du Trello</p>
                         </div>
                     </div>
                 </div>
@@ -77,7 +74,7 @@
                     <div class="projetContentImg">
                         <div class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/webjam/webjam_figma.png" alt="" />
-                            <p>image du figma</p>
+                            <p>Image du Figma</p>
                         </div>
                         <div class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/webjam/webjam_olympiade.webp" alt="" />
@@ -98,7 +95,7 @@
                     <div class="projetContentImg">
                         <div class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/webjam/webjam_confesion.webp" alt="" />
-                            <p>image de la section des confesions!</p>
+                            <p>Image de la section des confessions!</p>
                         </div>
                         <div class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/webjam/webjam_team.jpg" alt="" />
@@ -116,14 +113,10 @@
 
 <section data-scrolly='fromLeft' class="event">
     <div class="wrapper">
-        <h3>Lien vers la page de l'évenement:</h3>
-        <a class="bouton" target="_blank" href="https://webjam.ca/" href='target'>Voir le site officiel du webjam!</a>
+        <h3>Lien vers la page de l'évenement :</h3>
+        <a class="bouton" target="_blank" href="https://webjam.ca/" href='target'>Voir le site officiel du WebJam!</a>
     </div>
 
 </section>
-
-
-
-
 
 <?php get_footer(); ?>

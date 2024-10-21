@@ -7,30 +7,31 @@
     <div class="wrapper">
         <div class="projetHero">
             <div class="projetVideo">
-            <iframe
-                data-scrolly="fromLeft"
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/6IXWMH-EWU0"
-                title="La fusée | Animation Blender"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen></iframe></div>
+                <iframe
+                    data-scrolly="fromLeft"
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/6IXWMH-EWU0"
+                    title="La fusée | Animation Blender"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+            </div>
 
             <div data-scrolly="fromRight" class="projetHerotxt">
                 <div class="heroHead">
                     <h1>La fusée</h1>
                     <h2>Animation 3D | Projet Étudiant</h2>
-                    <p>Décollange d’une fusée dans l’espace. Elle va entrer dans l’hyper vitesse</p>
+                    <p>Décollage d’une fusée dans l’espace. Elle va entrer en hypervitesse.</p>
                 </div>
                 <div class="herotxt">
-                    <p>Réalisé par: moi</p>
+                    <p>Réalisé par : moi</p>
                     <p>Réalisé en 2021</p>
-                    <p>effet sonore: Libre de droits, mais pas fait par moi ! </p>
+                    <p>Effet sonore : Libre de droits, mais pas fait par moi !</p>
                 </div>
                 <div class="projetLog">
-                    <h4>Logiciels que j’ai utilisé:</h4>
+                    <h4>Logiciels que j’ai utilisés :</h4>
                     <div class="projetlogIcon">
                         <div class="item">
                             <svg class="icon icon--lg">
@@ -42,7 +43,7 @@
                             <svg class="icon icon--lg">
                                 <use xlink:href="#icon-davinci"></use>
                             </svg>
-                            <p>Davinci</p>
+                            <p>DaVinci</p>
                         </div>
                     </div>
                 </div>
@@ -59,7 +60,7 @@
             <div class="swiper-slide">
                 <div class="inspiration">
                     <div class="projetContentTxt">
-                        <h3>Inspiration!</h3>
+                        <h3>Inspiration !</h3>
                         <p>
                             Inspirée du SR-71 Blackbird, la fusée spatiale présente un corps fuselé et aérodynamique
                             pour réduire la traînée, avec des ailerons inclinés en V pour plus de stabilité. Son
@@ -71,7 +72,7 @@
                     <div class="projetContentImg">
                         <div class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/blackBird.jpg" alt="" />
-                            <p>Image Du SR-71 Blackbird</p>
+                            <p>Image du SR-71 Blackbird</p>
                         </div>
                         <div class="projetImg">
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/croquis.jpg" alt="" />
@@ -83,7 +84,7 @@
             <div class="swiper-slide">
                 <div class="inspiration">
                     <div class="projetContentTxt">
-                        <h3>Modélisation!</h3>
+                        <h3>Modélisation !</h3>
                         <p>
                             Dans Blender, j'ai conçu le modèle 3D de ma fusée en utilisant des modificateurs de miroir
                             pour assurer la symétrie parfaite des ailerons et du corps. J'ai commencé par modéliser le
@@ -109,7 +110,7 @@
             <div class="swiper-slide">
                 <div class="inspiration">
                     <div class="projetContentTxt">
-                        <h3>Animation!</h3>
+                        <h3>Animation !</h3>
                         <p>
                             Pour
                             <b>l'animation</b>
@@ -142,9 +143,6 @@
     </div>
 </section>
 
-
-
-
 <section class="sketchfab">
     <div class="wrapper">
         <h3>Le modèle SketchFab</h3>
@@ -172,7 +170,7 @@
                     style="font-weight: bold; color: #1caad9">
                     Décollage de fusée
                 </a>
-                by
+                par
                 <a
                     href="https://sketchfab.com/WonderedGnat082?utm_medium=embed&utm_campaign=share-popup&utm_content=c6a2b4718f1449cdb7fc393371c37a5d"
                     target="_blank"
@@ -180,7 +178,7 @@
                     style="font-weight: bold; color: #1caad9">
                     Xavier Perras
                 </a>
-                on
+                sur
                 <a
                     href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=c6a2b4718f1449cdb7fc393371c37a5d"
                     target="_blank"
