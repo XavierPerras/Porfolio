@@ -1,6 +1,8 @@
 .projets {
     width: 100vw;
-
+    .title {
+        text-align: center;
+    }
     .projetsContent {
         display: flex;
         justify-content: center;

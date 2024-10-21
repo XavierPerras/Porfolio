@@ -6,12 +6,13 @@
 <section class="projet">
     <div class="wrapper">
         <div class="projetHero">
-            <iframe width="871"
-                height="490"
+         <div class="projetVideo">
+            <iframe width="100%"
+                height="100%"
                 src="https://www.youtube.com/embed/PQ7JkYxQd9Q?si=SiDl5FlHqJ-2JYIk"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
             <div data-scrolly="fromRight" class="projetHerotxt">
                 <div class="heroHead">
@@ -136,14 +137,16 @@
 
 
 <section class="sketchfab">
-    <div class="wrapper">
+    <div class="wrappe">
+   
         <h3>Le modèle SketchFab.</h3>
 
-        <div class="sketchfab-embed-wrapper"> <iframe title="Le Banquet" frameborder="0" width="1080"
-                height="440" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/b4918b2a9aaf4f33a6caa3ef1688ebdf/embed?ui_theme=dark"> </iframe>
+        <div class="sketchfab-embed-wrapper"> <iframe width="100%"
+        height="100%" title="Le Banquet" frameborder="0" 
+                allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/b4918b2a9aaf4f33a6caa3ef1688ebdf/embed?ui_theme=dark"> </iframe>
             <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/le-banquet-b4918b2a9aaf4f33a6caa3ef1688ebdf?utm_medium=embed&utm_campaign=share-popup&utm_content=b4918b2a9aaf4f33a6caa3ef1688ebdf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Le Banquet </a> by <a href="https://sketchfab.com/WonderedGnat082?utm_medium=embed&utm_campaign=share-popup&utm_content=b4918b2a9aaf4f33a6caa3ef1688ebdf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Xavier Perras </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=b4918b2a9aaf4f33a6caa3ef1688ebdf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p>
-        </div>
-    </div>
+        </div></div>
+   
 </section>
 
 <?php get_footer(); ?>

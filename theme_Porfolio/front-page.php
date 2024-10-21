@@ -21,7 +21,7 @@
     </section>
     <section class="projets">
         <div class="wrapper">
-            <h2 data-scrolly='fromLeft'>Quelque Projets!</h2>
+            <h2 data-scrolly='fromLeft'>Quelques Projets!</h2>
             <div class="projetsContent">
                 <img data-scrolly='fromLeft' src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/hero.jpg" alt="photo profesionnel de moi" />
                 <div data-scrolly='fromRight' class="projetsTxt">

@@ -6,9 +6,10 @@
 <section class="projet">
     <div class="wrapper">
         <div class="projetHero">
-            <iframe width="1080"
-                height="440" src="https://www.youtube.com/embed/vUSTvtKtXcM?si=UCRg7eao2vX8RyEH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+        <div class="projetVideo">
+            <iframe width="100%"
+            height="100%" src="https://www.youtube.com/embed/vUSTvtKtXcM?si=UCRg7eao2vX8RyEH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
             <div data-scrolly="fromRight" class="projetHerotxt">
                 <div class="heroHead">
                     <h1>TimTools</h1>

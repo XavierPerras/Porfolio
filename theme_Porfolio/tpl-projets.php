@@ -6,7 +6,7 @@
 
     <section class="projets">
         <div class="wrapper">
-            <h1 data-scrolly="fromTop">Mes Projets!</h1>
+            <h1 class="title" data-scrolly="fromTop">Mes Projets!</h1>
 
             <div class="projetsContent">
                 <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/laFusee/hero.jpg" alt="photo profesionnel de moi" />

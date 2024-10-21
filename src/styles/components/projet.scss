@@ -16,6 +16,17 @@
         margin: 5px 0;
     }
 }
+.projetVideo {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    @media screen and (max-width: $breakpoint-md) {
+        width: 100%;
+        height: 100%;
+    }
+}
 .projetHero {
     display: flex;
     justify-content: space-between;
@@ -78,10 +89,16 @@
 
 //sketchfab
 .sketchfab {
-    margin: 40px 0;
+    margin: 40px auto;
+    width: 100%;
+    height: 100%;
 }
 .sketchfab-embed-wrapper {
     text-align: center;
+    height: 665px;
+    @media screen and (max-width: $breakpoint-md) {
+        height: 100%;
+    }
 }
 
 //Responsive
@@ -89,7 +106,7 @@
 @media screen and (max-width: $breakpoint-md) {
     .projetHero {
         display: block;
-
+        justify-content: center;
         margin: 50px 0;
     }
 

@@ -6,16 +6,17 @@
 <section class="projet">
     <div class="wrapper">
         <div class="projetHero">
+            <div class="projetVideo">
             <iframe
                 data-scrolly="fromLeft"
-                width="871"
-                height="490"
+                width="100%"
+                height="100%"
                 src="https://www.youtube.com/embed/6IXWMH-EWU0"
                 title="La fusée | Animation Blender"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen></iframe>
+                allowfullscreen></iframe></div>
 
             <div data-scrolly="fromRight" class="projetHerotxt">
                 <div class="heroHead">
@@ -146,14 +147,14 @@
 
 <section class="sketchfab">
     <div class="wrapper">
-        <h3>Le modèle SketchFab.</h3>
+        <h3>Le modèle SketchFab</h3>
 
         <div class="sketchfab-embed-wrapper">
             <iframe
                 title="Décollage de fusée"
                 frameborder="0"
-                width="1080"
-                height="440"
+                width="100%"
+                height="100%"
                 allowfullscreen
                 mozallowfullscreen="true"
                 webkitallowfullscreen="true"

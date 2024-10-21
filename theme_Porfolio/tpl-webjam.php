@@ -6,16 +6,8 @@
 <section class="projet">
     <div class="wrapper">
         <div class="projetHero">
-            <iframe
-                data-scrolly="fromLeft"
-                width="871"
-                height="490"
-                src="https://www.youtube.com/embed/6IXWMH-EWU0"
-                title="La fusée | Animation Blender"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen></iframe>
+        <div class="projetVideo"><img src="<?php bloginfo('template_url'); ?>/dist/assets/images/webjam/montageEnCours.png" alt="">
+          </div>
 
             <div data-scrolly="fromRight" class="projetHerotxt">
                 <div class="heroHead">
@@ -35,12 +27,7 @@
                             </svg>
                             <p>Vs code</p>
                         </div>
-                        <div class="item">
-                            <svg class="icon icon--lg">
-                                <use xlink:href="#icon-figma"></use>
-                            </svg>
-                            <p>Figma</p>
-                        </div>
+                        
                     </div>
                     <a class="bouton" target="_blank" href="https://abreton.dectim.ca/webjam/" href='target'>Voir le site!</a>
                 </div>
@@ -65,6 +52,7 @@
                     </div>
                     <div class="projetContentImg">
                         <div class="projetImg">
+                            
                             <img src="<?php bloginfo('template_url'); ?>/dist/assets/images/webjam/webjam_horaire.png" alt="" />
                             <p>Planning des olympiades!</p>
                         </div>
