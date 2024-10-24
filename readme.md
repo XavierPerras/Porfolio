@@ -1,48 +1,41 @@
 # Xavier Perras - Portfolio
 
-Welcome to my portfolio! I'm Xavier Perras, a Web dev Junior based in Canada. 
+Bienvenue sur mon portfolio ! Je suis Xavier Perras, développeur web junior basé au Canada.
 
-## About Me
+## À Propos de Moi
 
-I have 3 years of experience in Web. My goal is to Find my internship for school. I enjoy collaborating with others and am always eager to learn new technologies and improve my skills.
+J'ai trois ans d'expérience dans le développement web. Mon objectif est de trouver un stage pour mon cursus scolaire. J'apprécie la collaboration avec les autres et je suis toujours désireux d'apprendre de nouvelles technologies et d'améliorer mes compétences.
 
-## Skills
+## Compétences
 
-- **Programming Languages:** JavaScript, HTML, CSS
-- **Frameworks & Libraries:** SWIPER, THREEJS, Nodejs, NPM
-- **Tools & Technologies:** Gitghub
-- **Design:** Figma
-   
-## Projects
+- **Langages de Programmation :** JavaScript, HTML, CSS
+- **Frameworks & Bibliothèques :** SWIPER, THREE.js, Node.js, NPM
+- **Outils & Technologies :** GitHub
+- **Design :** Figma
 
-Here are some of my featured projects:
+## Projets
 
-1. **La fusée**
-   - **Description:** Décollage d’une fusée dans l’espace. Elle entre dans l’hyper vitesse.
-   - **Technologies Used:** Blender, 3D, montage sonore
- 
+Voici quelques-uns de mes projets phares :
 
-2. **Le banquet**
-   - **Description:** Un château dans un monde merveilleux. Voici un court moment du banquet !
-   - **Technologies Used:** Blender, vidéo, suite Adobe
-   
+1. **La Fusée**
+   - **Description :** Décollage d’une fusée dans l’espace, entrant en hyper vitesse.
+   - **Technologies Utilisées :** Blender, 3D, montage sonore
+
+2. **Le Banquet**
+   - **Description :** Un château dans un monde merveilleux, capturant un moment du banquet !
+   - **Technologies Utilisées :** Blender, vidéo, suite Adobe
 
 3. **TimTools**
-   - **Description:** TimTools est une boîte à outils JavaScript visant à simplifier le développement en offrant des solutions optimisées pour améliorer la productivité et la performance.
-   - **Technologies Used:** HTML, CSS, JS, github, nodeJs
-  
+   - **Description :** TimTools est une boîte à outils JavaScript conçue pour simplifier le développement en offrant des solutions optimisées afin d'améliorer la productivité et la performance.
+   - **Technologies Utilisées :** HTML, CSS, JS, GitHub, Node.js
 
 4. **WebJam**
-   - **Description:** Participation au WebJam 2024. Création d’un site web en moins de 48 heures!
-   - **Technologies Used:** cpanel, HTML, CSS, JAVASCRIPT
-
+   - **Description :** Participation au WebJam 2024, création d’un site web en moins de 48 heures !
+   - **Technologies Utilisées :** cPanel, HTML, CSS, JavaScript
 
 ## Contact
 
-Feel free to reach out to me:
+N'hésitez pas à me contacter :
 
-- **Email:** xavier.perras@outlook.com
-- **LinkedIn:** https://www.linkedin.com/in/xavier-perras-3746b932a/?locale=en_US
-
-
-Thank you for visiting my portfolio!
+- **Email :** xavier.perras@outlook.com
+- **LinkedIn :** [https://www.linkedin.com/in/xavier-perras-3746b932a/?locale=en_US](https://www.linkedin.com/in/xavier-perras-3746b932a/?locale=en_US)
