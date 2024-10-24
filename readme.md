@@ -23,7 +23,7 @@ Here are some of my featured projects:
  
 
 2. **Le banquet**
-   - **Description:**Un château dans un monde merveilleux. Voici un court moment du banquet !
+   - **Description:** Un château dans un monde merveilleux. Voici un court moment du banquet !
    - **Technologies Used:** Blender, vidéo, suite Adobe
    
 
