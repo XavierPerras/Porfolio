@@ -85,7 +85,7 @@
 
             <div data-scrolly="fromLittle" class="accordion-item logiciel">
                 <input type="checkbox" id="item2" class="accordion-toggle" />
-                <label for="item2" class="accordion-title"><h3>Logiciels que j’utilise!</h3></label>
+                <label for="item2" class="accordion-title"><h3>Mes Logiciels</h3></label>
                 <div class="accordion-content">
                     <div class="item">
                         <svg class="icon icon--lg">
