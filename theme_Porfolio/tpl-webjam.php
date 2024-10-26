@@ -11,7 +11,8 @@
 
             <div data-scrolly="fromRight" class="projetHerotxt">
                 <div class="heroHead">
-                    <h1>Webjam 2024</h1>
+                    <div><h1>Webjam 2024</h1><p>Réalisé en 2024</p></div>
+                    
                     <h2>Web | Projet d'équipe | Projet Étudiant</h2>
                     <p>Création d'un site web en moins de 36 heures.</p>
                 </div>

@@ -10,11 +10,11 @@
 .swiper-pagination-bullet {
     --size: 20px;
 
-    border: 2px solid var(--color-white);
+    border: 2px solid var(--color-btn-actif);
     border-radius: 100%;
     height: var(--size);
     margin: 0 5px;
-    transition: border 0.4s ease-out;
+    transition: border 0.4s ease-in;
     width: var(--size);
 }
 

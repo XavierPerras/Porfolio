@@ -21,13 +21,13 @@
 
             <div data-scrolly="fromRight" class="projetHerotxt">
                 <div class="heroHead">
-                    <h1>La fusée</h1>
+                  <div> <h1>La fusée</h1><p>Réalisé en 2021</p></div> 
                     <h2>Animation 3D | Projet Étudiant</h2>
                     <p>Décollage d’une fusée dans l’espace. Elle va entrer en hypervitesse.</p>
                 </div>
                 <div class="herotxt">
-                    <p>Réalisé par : moi</p>
-                    <p>Réalisé en 2021</p>
+                    <p>Réalisé par : Moi seulement!</p>
+                    
                     <p>Effet sonore : Libre de droits, mais pas fait par moi !</p>
                 </div>
                 <div class="projetLog">

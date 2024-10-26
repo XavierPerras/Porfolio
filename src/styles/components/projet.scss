@@ -1,10 +1,5 @@
 .projet {
-    a {
-        padding: 10px;
-    }
-
     h1 {
-        border-bottom: 10px solid #eaeaea;
         margin: 10px 0;
         /* shadow */
         text-shadow: var(--shadow);
@@ -15,6 +10,9 @@
     h4 {
         margin: 5px 0;
     }
+}
+.projetContent {
+    margin: 100px 0;
 }
 .projetVideo {
     overflow: hidden;
@@ -41,17 +39,30 @@
 }
 .heroHead {
     border-bottom: 5px solid #eaeaea;
+    div {
+        border-bottom: 10px solid #eaeaea;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        p {
+            margin: 0;
+        }
+    }
 }
 .herotxt {
     margin-bottom: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
     p {
         margin: 5px 0;
     }
 }
 
 .projetLog {
+    margin-top: 10px;
+    h4 {
+        font-weight: 600;
+    }
+
     .item {
         gap: 5px;
     }
@@ -82,9 +93,6 @@
 
         object-fit: cover;
     }
-}
-.inspiration {
-    margin: 80px 0;
 }
 
 //sketchfab

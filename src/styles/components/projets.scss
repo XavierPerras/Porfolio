@@ -2,6 +2,7 @@
     width: 100vw;
     .title {
         text-align: center;
+        font-size: var(--font-size-hName);
     }
     .projetsContent {
         display: flex;
@@ -37,9 +38,6 @@
         @media screen and (max-width: $breakpoint-md) {
             width: 100%;
         }
-    }
-    a {
-        padding: 10px;
     }
 
     .ttsproj {

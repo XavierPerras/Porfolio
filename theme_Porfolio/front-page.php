@@ -1,19 +1,17 @@
 <?php get_header(); ?>
 
-<section class="hero">
+<section class="hero ">
     <div class="wrapper">
         <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/photoPro.png" alt="photo professionnel de moi" />
-        <div data-scrolly="fromRight" class="heroTxt">
-            <h1>Xavier Perras</h1>
-            <h2>
-                Créateur 3D/
+        <div  class="heroTxt frontpage">
+            <h1 data-scrolly="fromRight">Xavier Perras</h1>
+            <h2 data-scrolly='fromRight'>
+                Créateur 3D /
                 <br />
-                DevWeb junior
+                Développeur web junior
             </h2>
-            <p>
-                Je suis en technique d’intégration multimédia au Cégep Édouard-Montpetit. Je termine ma technique en mai 2025. J’aime la 3D et l’intégration web.
-            </p>
-            <a class="ttsproj bouton" href="https://xperras.dectim.ca/projets/">Mes projets!</a>
+           
+            <a data-scrolly='fromBottom' class="ttsproj bouton" href="https://xperras.dectim.ca/projets/">Mes projets!</a>
         </div>
     </div>
 </section>

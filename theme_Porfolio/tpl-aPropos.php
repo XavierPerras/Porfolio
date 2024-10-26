@@ -10,7 +10,7 @@
         <div data-scrolly="fromRight" class="heroTxt">
             <h1>Xavier Perras</h1>
             <h2>
-                Créateur 3D/
+                Créateur 3D /
                 <br />
                 Développeur web junior
             </h2>

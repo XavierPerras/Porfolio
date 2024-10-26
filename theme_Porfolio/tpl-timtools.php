@@ -12,13 +12,14 @@
         </div>
             <div data-scrolly="fromRight" class="projetHerotxt">
                 <div class="heroHead">
-                    <h1>TimTools</h1>
+                    <div> <h1>TimTools</h1><p>Projet réalisé en 2023</p></div>
+                   
                     <h2>Web | Projet Étudiant</h2>
                     <p>Ma boîte à outils est une plateforme en ligne que j'ai créée pour améliorer ma productivité.</p>
                 </div>
                 <div class="herotxt">
                     <p>Réalisé par : moi-même</p>
-                    <p>Projet réalisé en 2023</p>
+                    
                     <p>Tous les composants ont été créés par moi !</p>
                 </div>
                 <div class="projetLog">

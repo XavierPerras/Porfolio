@@ -17,13 +17,14 @@
 
             <div data-scrolly="fromRight" class="projetHerotxt">
                 <div class="heroHead">
-                    <h1>Le Banquet</h1>
+                    <div><h1>Le Banquet</h1> <p>Réalisé en 2022</p></div>
+                    
                     <h2>Animation Multimédia | Projet Étudiant</h2>
                     <p>Animation d'un banquet à l'époque médiévale</p>
                 </div>
                 <div class="herotxt">
                     <p>Réalisé par : Moi et Félix-Antoine Perras (Acteur)</p>
-                    <p>Réalisé en 2022</p>
+                   
                     <p>Effet sonore : Libre de droits, mais pas fait par moi !</p>
                 </div>
                 <div class="projetLog">
@@ -54,8 +55,8 @@
     </div>
 </section>
 
-<section class="wrapper">
-    <div class="swiper projetContent" data-gap="120" data-loop="loop" data-component="Carousel">
+<section class=" projetContent wrapper">
+    <div class="swiper " data-gap="120" data-loop="loop" data-component="Carousel">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
