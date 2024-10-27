@@ -34,9 +34,7 @@
 
 <section class="CLQ">
     <div class="wrapper">
-        <svg class="icon icon--xl">
-            <use xlink:href="#icon-dropdown"></use>
-        </svg>
+       
         <div class="accordion">
             <div data-scrolly="fromLeft" class="accordion-item competence">
                 <input type="checkbox" id="item1" class="accordion-toggle" />

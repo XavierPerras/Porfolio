@@ -58,10 +58,11 @@ export default class Carousel {
     }
 
     //autoplay
-    if (this.autoplay == 'autoplay') {
+    if (this.autoplay) {
+      const temp = parseInt(this.autoplay);
       this.options.autoplay = {
         autoplay: true,
-        delay: 5000, //cree un delay
+        delay: temp, //cree un delay avec la valeur rentrer dans le data-autoplay
         disableOnInteraction: true, // emepche modification dans la page
         pauseOnMouseEnter: true, // lors du survole l'autoplay est off
       };

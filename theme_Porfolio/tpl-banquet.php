@@ -51,7 +51,7 @@
 </section>
 
 <section class=" projetContent wrapper">
-    <div class="swiper " data-gap="120" data-loop="loop" data-component="Carousel">
+    <div class="swiper " data-gap="120" data-loop="loop" data-autoplay="4000" data-component="Carousel">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->

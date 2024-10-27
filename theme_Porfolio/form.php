@@ -26,27 +26,27 @@
                 <h3>Curriculum Vitae</h3>
             </a>
             <div class="media">
-                <a href="https://github.com/XavierPerras">
+                <a target="_blank" href="https://github.com/XavierPerras">
                     <svg class="icon icon--lg">
                         <use xlink:href="#icon-githubLogo"></use>
                     </svg>
                 </a>
-                <a href="https://sketchfab.com/WonderedGnat082">
+                <a target="_blank" href="https://sketchfab.com/WonderedGnat082">
                     <svg class="icon icon--lg">
                         <use xlink:href="#icon-sketchfabLogo"></use>
                     </svg>
                 </a>
-                <a href="https://www.instagram.com/xavier_perras/">
+                <a target="_blank" href="https://www.instagram.com/xavier_perras/">
                     <svg class="icon icon--lg">
                         <use xlink:href="#icon-instaLogo"></use>
                     </svg>
                 </a>
-                <a href="https://www.linkedin.com/in/xavier-perras-3746b932a/">
+                <a target="_blank" href="https://www.linkedin.com/in/xavier-perras-3746b932a/">
                     <svg class="icon icon--lg">
                         <use xlink:href="#icon-linkinLogo"></use>
                     </svg>
                 </a>
-                <a href="https://www.youtube.com/@xavierperras">
+                <a target="_blank" href="https://www.youtube.com/@xavierperras">
                     <svg class="icon icon--lg">
                         <use xlink:href="#icon-ytLogo"></use>
                     </svg>

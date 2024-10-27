@@ -1,17 +1,17 @@
 <?php get_header(); ?>
 
-<section class="hero ">
+<section  class="hero ">
     <div class="wrapper">
         <img data-scrolly="fromLeft" src="<?php bloginfo('template_url'); ?>/dist/assets/images/photoPro.png" alt="photo professionnel de moi" />
-        <div  class="heroTxt frontpage">
-            <h1 data-scrolly="fromRight">Xavier Perras</h1>
-            <h2 data-scrolly='fromRight'>
+        <div data-scrolly='fromRight' class="heroTxt frontpage">
+            <h1 >Xavier Perras</h1>
+            <h2 >
                 Créateur 3D /
                 <br />
                 Développeur web junior
             </h2>
            
-            <a data-scrolly='fromBottom' class="ttsproj bouton" href="https://xperras.dectim.ca/projets/">Mes projets!</a>
+            <a  class="ttsproj bouton" href="https://xperras.dectim.ca/projets/">Mes projets!</a>
         </div>
     </div>
 </section>

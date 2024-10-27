@@ -40,7 +40,7 @@
 </section>
 
 <section class="wrapper">
-    <div class="swiper projetContent" data-gap="120" data-loop="loop" data-component="Carousel">
+    <div class="swiper projetContent" data-gap="120" data-loop="loop" data-autoplay="4000" data-component="Carousel">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="inspiration">

@@ -1,41 +1,46 @@
-//class pour la composante scrolly: faire animer des element lors du defilement de la page
 export default class Scrolly {
   constructor(element) {
     this.element = element;
-    this.optios = {
+    this.options = {
       rootMargin: '0px',
+      threshold: 0.1,
     };
     this.init();
   }
 
   init() {
+    const items = this.element.querySelectorAll('[data-scrolly]');
     const observer = new IntersectionObserver(
       this.watch.bind(this),
-      this.optios
+      this.options
     );
 
-    const items = this.element.querySelectorAll('[data-scrolly]');
-    for (let i = 0; i < items.length; i++) {
-      const item = items[i];
+    items.forEach((item) => {
+      // If item is in the viewport initially, add the animation class
+      if (this.isInViewport(item)) {
+        item.classList.add('is-active');
+      }
+      // Start observing each item
       observer.observe(item);
-    }
+    });
   }
-  //methode qui detect si l'élement est regarder ou non
-  watch(entries, observer) {
-    for (let i = 0; i < entries.length; i++) {
-      const entry = entries[i];
-      const target = entry.target;
-      if (entry.isIntersecting) {
-        target.classList.add('is-active');
-        const no = this.element.dataset.norepeat;
 
-        if (no == 'noRepeat') {
-          observer.unobserve(target); //empeche infinte animation
-          console.log('no repeat');
+  // Utility to check if element is in viewport on load
+  isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return rect.top < window.innerHeight && rect.bottom >= 0;
+  }
+
+  watch(entries, observer) {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-active');
+        if (this.element.dataset.norepeat === 'noRepeat') {
+          observer.unobserve(entry.target);
         }
       } else {
-        target.classList.remove('is-active');
+        entry.target.classList.remove('is-active');
       }
-    }
+    });
   }
 }
