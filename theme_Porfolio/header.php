@@ -8,7 +8,7 @@
             bloginfo('name'); ?></title>
     <?php wp_head(); ?>
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/dist/styles/main.css">
-    <script>
+    <script defer>
         iconsPath = '<?php bloginfo('template_url'); ?>/dist/';
         console.log(iconsPath); // Check if the path is correct
     </script>

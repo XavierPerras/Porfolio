@@ -8,7 +8,7 @@ class Main {
 
   init() {
     document.documentElement.classList.add('has-js');
-    Icons.load(); //Aucune icône dans ce projet
+    Icons.load();
 
     new ComponentFactory();
   }

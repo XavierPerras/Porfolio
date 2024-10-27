@@ -34,10 +34,15 @@
 
 <section class="CLQ">
     <div class="wrapper">
+        <svg class="icon icon--xl">
+            <use xlink:href="#icon-dropdown"></use>
+        </svg>
         <div class="accordion">
             <div data-scrolly="fromLeft" class="accordion-item competence">
                 <input type="checkbox" id="item1" class="accordion-toggle" />
-                <label for="item1" class="accordion-title"><h3>Mes Compétences</h3></label>
+                <label for="item1" class="accordion-title"><h3>Mes Compétences</h3> <svg class="icon icon--lg">
+                    <use xlink:href="#icon-dropdown"></use>
+                </svg></label>
                 <div class="accordion-content">
                     <div class="item">
                         <svg class="icon icon--lg">
@@ -73,7 +78,9 @@
             </div>
             <div data-scrolly="fromLittle" class="accordion-item logiciel">
                 <input type="checkbox" id="item2" class="accordion-toggle" />
-                <label for="item2" class="accordion-title"><h3>Mes Logiciels</h3></label>
+                <label for="item2" class="accordion-title"><h3>Mes Logiciels</h3><svg class="icon icon--lg">
+                    <use xlink:href="#icon-dropdown"></use>
+                </svg></label>
                 <div class="accordion-content">
                     <div class="item">
                         <svg class="icon icon--lg">
@@ -109,7 +116,9 @@
             </div>
             <div data-scrolly="fromRight" class="accordion-item qualite">
                 <input type="checkbox" id="item3" class="accordion-toggle" />
-                <label for="item3" class="accordion-title"><h3>Mes Qualités</h3></label>
+                <label for="item3" class="accordion-title"><h3>Mes Qualités</h3><svg class="icon icon--lg">
+                    <use xlink:href="#icon-dropdown"></use>
+                </svg> </label>
                 <div class="accordion-content">
                     <div class="item">
                         <svg class="icon icon--lg">

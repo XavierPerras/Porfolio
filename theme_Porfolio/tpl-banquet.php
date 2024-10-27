@@ -42,12 +42,7 @@
                             </svg>
                             <p>DaVinci</p>
                         </div>
-                        <div class="item">
-                            <svg class="icon icon--lg">
-                                <use xlink:href="#icon-adobe"></use>
-                            </svg>
-                            <p>La suite Adobe</p>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
