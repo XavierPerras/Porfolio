@@ -1,6 +1,6 @@
 /* Preloader Styles */
+/* Add outro class styles to loading screen */
 #loading-screen {
-    /* Full-screen overlay with a gradient background */
     position: fixed;
     top: 0;
     left: 0;
@@ -11,59 +11,75 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 0; /* Initially hidden */
-    animation: fadeIn 0.8s ease-out forwards; /* Fade-in effect */
-    z-index: 9999; /* Ensures it stays above other elements */
+    opacity: 1;
+    z-index: 9999;
+    animation: slideInFade 0.8s ease forwards;
 }
 
-@keyframes fadeIn {
-    to {
-        opacity: 1; /* Fades in to full opacity */
+@keyframes slideInFade {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+#loading-screen.outro {
+    animation: slideOutFade 0.8s ease-out forwards;
+}
+
+@keyframes slideOutFade {
+    0% {
+        left: 0;
+        opacity: 1;
+    }
+    100% {
+        left: 100%;
+        opacity: 0;
     }
 }
 
 /* Text Animation */
 #loading-screen span {
-    /* Text initially hidden and translated off-screen */
     display: inline-block;
-    max-width: 0; /* Collapsed width */
-    opacity: 0; /* Hidden */
+    max-width: 0;
+    opacity: 0;
     overflow: hidden;
-    transform: translateX(-50px); /* Moves text left */
-    vertical-align: bottom;
+    transform: translateX(-50px);
     transition: transform 0.5s ease, max-width 2s ease, opacity 1s ease;
-    animation: textFadeIn 1s 0.5s ease forwards; /* Sequential fade-in and slide effect */
+    animation: textFadeIn 1s 0.5s ease forwards;
 }
 
 @keyframes textFadeIn {
     to {
-        transform: translateX(0); /* Moves text to original position */
-        max-width: 200px; /* Expands to show content */
-        opacity: 1; /* Fully visible */
+        transform: translateX(0);
+        max-width: 200px;
+        opacity: 1;
     }
 }
 
 /* Spinner Animation */
 .spinner {
-    /* Circular spinning loader */
-    border: 16px solid var(--color-white); /* Light grey border */
-    border-top: 16px solid var(--color-btn-actif); /* Accent color for top */
-    border-radius: 50%; /* Rounds to create a circle */
+    border: 16px solid var(--color-white);
+    border-top: 16px solid var(--color-btn-actif);
+    border-radius: 50%;
     width: 100px;
     height: 100px;
-    animation: spin 1s linear infinite; /* Continuous rotation */
+    animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
     0% {
-        transform: rotate(0deg); /* Start rotation */
+        transform: rotate(0deg);
     }
     100% {
-        transform: rotate(360deg); /* Full rotation */
+        transform: rotate(360deg);
     }
 }
 
-/* Initially hides main content until preloader is complete */
 #content {
     display: none;
 }
