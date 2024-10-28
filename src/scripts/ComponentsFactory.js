@@ -3,6 +3,7 @@ import Scrolly from './components/Scrolly';
 import Header from './components/Header';
 import ThreeD from './components/ThreeD';
 import Youtube from './components/YouTube';
+import LoadingScreen from './components/LoadingScreen';
 
 export default class ComponentFactory {
   constructor() {
@@ -12,6 +13,7 @@ export default class ComponentFactory {
       Header,
       ThreeD,
       Youtube,
+      //  LoadingScreen,
     };
     this.init();
   }

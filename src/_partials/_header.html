@@ -1,44 +1,120 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Porfolio | Xavier Perras</title>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Xavier Perras</title>
 
-        <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+   
 
+    <style>
+        /* Preloader Styles */
+        #loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(#0d0d0d, #2f6073);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+      span {
+        display: inline-block; /* Allow size manipulation */
+        max-width: 0; /* Initially collapsed */
+        opacity: 0; /* Initially hidden */
+        overflow: hidden;
+        transform: translateX(-50px);
+        vertical-align: bottom;
+        transition: transform 0.5s ease-in, max-width 2s ease-in,
+            opacity 1s ease;
+    }
+    &:hover span {
+        transform: translateX(0);
+        max-width: 200px; /* Adjust according to the content */
+        opacity: 1;
+    }  }
         
-      
-        <script src="scripts/main.js" defer></script>
-    </head>
 
-    <body data-component="Scrolly">
-        <header class="header"  data-component="Header">
+        .spinner {
+            border: 16px solid var(--color-white); /* Light grey */
+            border-top: 16px solid var(--color-btn-actif); /* Blue */
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        #content {
+            display: none; /* Hide content initially */
+        }
+    </style> <script src="scripts/main.js" defer></script>
+</head>
+
+<body data-component="Scrolly">
+    <div id="loading-screen">
+        <div class="spinner"></div>
+        <h1>X<span>avier</span><span>&nbsp;</span>P<span>erras</span></h1>
+    </div>
+    
+    <div id="content">
+        <header class="header" data-component="Header">
             <div class="wrapper">
                 <div class="head">
-            <a data-scrolly="fromLeft" href="index.html" class="header__brand">
-                <h2>X<span>avier</span><span>&nbsp;</span>P<span>erras</span></h2>
-            </a>
-            <nav data-scrolly="fromRight"  class="nav-primary">
-                <ul>
-                    <li>
-                       <a href="../projets.html">Projets</a>
-                    </li>
-                    <li>
-                        <a href="../aPropos.html">À propos</a>
-                    </li>
-                    <li >
-                        <a href="../contact.html">Contact</a>
-                    </li>
-                    
-                   
-                </ul>
-            </nav>
-            <button data-scrolly="fromRight" class="header__toggle js-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button></div></div>
+                    <a data-scrolly="fromLeft" href="index.html" class="header__brand">
+                        <h2>X<span>avier</span><span>&nbsp;</span>P<span>erras</span></h2>
+                    </a>
+                    <nav data-scrolly="fromRight" class="nav-primary">
+                        <ul>
+                            <li><a href="../projets.html">Projets</a></li>
+                            <li><a href="../aPropos.html">À propos</a></li>
+                            <li><a href="../contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <button data-scrolly="fromRight" class="header__toggle js-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
         </header>
 
-   
+        
+    
+
+    <script>
+        let loadingComplete = false;
+        const minLoadingTime = 3000; // Minimum loading time in milliseconds (3 seconds)
+        let loadingTimer;
+
+        // Wait for all resources to load
+        window.addEventListener('load', function() {
+            loadingComplete = true; // Mark loading as complete
+            clearTimeout(loadingTimer); // Clear the timer if the page loads early
+            setTimeout(hideLoadingScreen, minLoadingTime); // Ensure we hide the preloader after minimum time
+        });
+
+        // Start the loading timer for minimum display duration
+        loadingTimer = setTimeout(() => {
+            if (!loadingComplete) {
+                hideLoadingScreen(); // Hide if still showing after timeout
+            }
+        }, minLoadingTime); // Show for at least 3 seconds
+
+        function hideLoadingScreen() {
+            const loadingScreen = document.getElementById('loading-screen');
+            const content = document.getElementById('content');
+
+            loadingScreen.style.display = 'none'; // Hide loading screen
+            content.style.display = 'block'; // Show main content
+        }
+    </script>
