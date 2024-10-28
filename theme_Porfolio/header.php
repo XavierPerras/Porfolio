@@ -16,7 +16,11 @@
 </head>
 
 <body <?php body_class(); ?> data-component="Scrolly">
-
+<div id="loading-screen">
+        <div class="spinner"></div>
+        <h1>X<span>avier</span><span>&nbsp;</span>P<span>erras</span></h1>
+        <script src="scripts/components/LoadingScreen.js"></script>
+    </div>
 
     <header class="header" data-component="Header">
         <div class="wrapper">
