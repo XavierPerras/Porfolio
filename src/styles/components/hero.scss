@@ -41,6 +41,13 @@
             margin: 10px 0;
             text-shadow: var(--shadow);
         }
+        @media screen and (max-width: $breakpoint-sm) {
+            text-align: center;
+            margin: 20px auto;
+            a {
+                margin: 0 auto;
+            }
+        }
     }
 }
 .frontpage {
