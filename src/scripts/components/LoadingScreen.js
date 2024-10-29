@@ -24,7 +24,8 @@ export default class LoadingScreen {
       loadingScreen.classList.add('outro'); // Trigger outro animation
       setTimeout(() => {
         loadingScreen.style.display = 'none';
-        content.style.display = 'block';
+        content.style.opacity = '1';
+        content.style.visibility = 'visible';
       }, 800); // Match outro animation duration
     }
   }

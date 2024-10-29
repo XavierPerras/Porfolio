@@ -8,7 +8,7 @@
     margin: 0 auto;
     padding: 0 var(--spacing-md);
     @media screen and (max-width: $breakpoint-md) {
-        padding: 0 var(--spacing-xs);
+        padding: 0 var(--spacing-sm);
     }
 }
 

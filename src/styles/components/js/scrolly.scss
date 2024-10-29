@@ -1,74 +1,77 @@
-/* ==========================================================================
-   scrolly / component
+/* ========================================================================== 
+   Scrolly / Component
    ========================================================================== */
 .has-js {
-    [data-scrolly='fromBottom'] {
-        opacity: 0; // si JS est desactiver l'opsacité reste a zero!!
-        transition: all 0.4s ease-out;
-        transform: translateY(60px);
+    [data-scrolly] {
+        opacity: 0; // If JS is disabled, opacity stays at zero
+        transition: opacity 0.4s ease-out, transform 0.4s ease-out;
 
-        &.is-active {
-            opacity: 1;
-            transform: translateY(0);
+        // From Bottom
+        &[data-scrolly='fromBottom'] {
+            transform: translateY(60px);
+            &.is-active {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
-    }
-    [data-scrolly='fromTop'] {
-        opacity: 0; // si JS est desactiver l'opsacité reste a zero!!
-        transition: all 0.4s ease-out;
-        transform: translateY(-60px);
 
-        &.is-active {
-            opacity: 1;
-            transform: translateY(0);
+        // From Top
+        &[data-scrolly='fromTop'] {
+            transform: translateY(-60px);
+            &.is-active {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
-    }
-    [data-scrolly='fromLeft'] {
-        opacity: 0;
-        transition: all 0.6s ease-out;
-        transform: translateX(-50px);
 
-        &.is-active {
-            opacity: 1;
-            transform: translateX(0);
+        // From Left
+        &[data-scrolly='fromLeft'] {
+            transform: translateX(-50px);
+            transition-duration: 0.6s;
+            &.is-active {
+                opacity: 1;
+                transform: translateX(0);
+            }
         }
-    }
-    [data-scrolly='fromReverse'] {
-        opacity: 0;
-        transform: rotateZ(-180deg);
-        transition: all s ease-out;
 
-        &.is-active {
-            opacity: 1;
-            transform: rotateX(0);
+        // From Reverse
+        &[data-scrolly='fromReverse'] {
+            transform: rotateZ(-180deg);
+            transition-duration: 0.6s; // Add duration
+            &.is-active {
+                opacity: 1;
+                transform: rotateZ(0); // Fix rotation axis
+            }
         }
-    }
-    [data-scrolly='fromLittle'] {
-        opacity: 0;
-        transform: scale(0);
-        transition: all 0.3s ease-in;
-        &.is-active {
-            opacity: 1;
-            transform: scale(1);
-        }
-    }
-    [data-scrolly='fromRight'] {
-        opacity: 0;
-        transition: all 0.6s ease-out;
-        transform: translateX(50px);
 
-        &.is-active {
-            opacity: 1;
-            transform: translateX(0);
+        // From Little
+        &[data-scrolly='fromLittle'] {
+            transform: scale(0);
+            transition-duration: 0.3s;
+            &.is-active {
+                opacity: 1;
+                transform: scale(1);
+            }
         }
-    }
-    [data-scrolly='flipFromBottom'] {
-        opacity: 0; // si JS est desactiver l'opsacité reste a zero!!
-        transition: all 0.6s ease-out;
-        transform: rotateX(120deg);
 
-        &.is-active {
-            opacity: 1;
-            transform: rotateX(0);
+        // From Right
+        &[data-scrolly='fromRight'] {
+            transform: translateX(50px);
+            transition-duration: 0.6s;
+            &.is-active {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        // Flip From Bottom
+        &[data-scrolly='flipFromBottom'] {
+            transform: rotateX(120deg);
+            transition-duration: 0.6s;
+            &.is-active {
+                opacity: 1;
+                transform: rotateX(0);
+            }
         }
     }
 }

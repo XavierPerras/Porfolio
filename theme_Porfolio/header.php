@@ -21,12 +21,12 @@
         <h1>X<span>avier</span><span>&nbsp;</span>P<span>erras</span></h1>
         <script src="scripts/components/LoadingScreen.js"></script>
     </div>
-
+    <div id="content">
     <header class="header" data-component="Header">
         <div class="wrapper">
             <div class="head">
                 <a href="https://xperras.dectim.ca" class="header__brand">
-                    <h2 data-scrolly='fromLeft'>X<span>avier</span><span>&nbsp;</span>P<span>erras</span></h2>
+                    <h2 data-scrolly='fromLittle'>X<span>avier</span><span>&nbsp;</span>P<span>erras</span></h2>
                 </a>
 
 
@@ -38,7 +38,7 @@
                                                                     )); ?>
 
                 </nav>
-                <button data-scrolly="fromRight" class="header__toggle js-toggle">
+                <button data-scrolly='fromReverse' class="header__toggle js-toggle">
                     <span></span>
                     <span></span>
                     <span></span>

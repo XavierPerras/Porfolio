@@ -11,7 +11,7 @@ export default class ComponentFactory {
       Carousel,
       Scrolly,
       Header,
-      ThreeD,
+      //  ThreeD,
       Youtube,
       //  LoadingScreen,
     };
