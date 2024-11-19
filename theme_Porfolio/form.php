@@ -19,7 +19,7 @@
                 </svg>
                 <h3>438-526-9382</h3>
             </a>
-            <a href="./assets/documents/monCv.txt" download>
+            <a href="<?php bloginfo('template_url'); ?>/dist/assets/documents/CurriculumVitae.pdf" download>
                 <svg class="icon icon--lg">
                     <use xlink:href="#icon-cv"></use>
                 </svg>
