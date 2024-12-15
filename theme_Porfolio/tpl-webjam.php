@@ -6,7 +6,8 @@
 <section class="projet">
     <div class="wrapper">
         <div class="projetHero">
-        <div class="projetVideo"><img src="<?php bloginfo('template_url'); ?>/dist/assets/images/webjam/montageEnCours.png" alt="">
+        <div class="projetVideo"><iframe  width="100%"
+        height="100%" src="https://www.youtube.com/embed/IXsmKwZYBvw?si=C7WHpyyvRSG_oE71" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
 
             <div data-scrolly="fromRight" class="projetHerotxt">
